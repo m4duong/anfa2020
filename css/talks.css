@@ -1,0 +1,24 @@
+.talk {
+  width: 4ev;
+  height: 1ev;
+  margin: 60px;
+  margin-top: 0px;
+  padding: 40px;
+  background: lightgray;
+}
+
+.section-title {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  color: white;
+}
+
+.hero-img {
+  height: 30%;
+  background-color: black;
+}
+
+section {
+  margin-top: 1em;
+}
