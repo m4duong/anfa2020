@@ -15,43 +15,17 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script>
+        $(function () {
+          $("#nav-placeholder").load("nav.html");
+        });
+      </script>
 	</head>
 
 	<body>
-		<!--sticky navbar-->
-		<div class="navbar">
-			<a href="#">KEYNOTES</a></li>
-			<div class="dropdown">
-				<button class="dropbtn">TALKS</button>
-				<div class="dropdown-content">
-		        	<a href="#">Design Thought Process</a>
-		       		<a href="#">Performance Variables: Biophilia, Color, Light</a>
-		       		<a href="#">Health & Healthcare</a>
-		       		<a href="#">Occupant Behavior in Buildings & Beyond</a>
-		       		<a href="#">Sensory Experience</a>
-		       		<a href="#">Spatial Interactions & Navigation</a>
-		       		<a href="#">Catalysts to Learning Measurement</a>
-		       		<a href="#">Tools: Hardware & Software</a>
-		       	</div>
-		     </div>
-		     <div class="dropdown">
-				<button class="dropbtn">POSTERS</button>
-				<div class="dropdown-content">
-		        	<a href="#">Design Thought Process</a>
-		       		<a href="#">Performance Variables: Biophilia, Color, Light</a>
-		       		<a href="#">Health & Healthcare</a>
-		       		<a href="#">Occupant Behavior in Buildings & Beyond</a>
-		       		<a href="#">Sensory Experience</a>
-		       		<a href="#">Spatial Interactions & Navigation</a>
-		       		<a href="#">Catalysts to Learning Measurement</a>
-		       		<a href="#">Tools: Hardware & Software</a>
-		       	</div>
-		     </div>
-			<a href="#">EXTRAS</a>
-			<a href="#">SPONSORS</a>
-		</div>
-
-		<br>
+		<!--nav-->
+		<div id="nav-placeholder"></div>
 
 		<!--salk welcome video-->
 		<div class="d-flex salk">
