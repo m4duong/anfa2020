@@ -1,0 +1,23 @@
+.jumbotron {
+	radius: 0px;
+	background-color: #393939;
+}
+
+.jumbotron h1{
+	color: white;
+	text-align: center;
+	font-family: 'PT Sans';
+}
+
+.speaker {
+	background-color: #D9D5D5;
+}
+
+h4 .bio {
+	font-family: 'Roboto';
+	color: #393939;
+}
+
+.center p {
+	text-align: center;
+}

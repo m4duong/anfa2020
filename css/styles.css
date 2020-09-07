@@ -1,3 +1,4 @@
+/*salk banner*/
 .salk {
 	background-color: grey;
 	border-radius: 0px;
@@ -13,15 +14,12 @@ iframe {
 	width: 444.5px;
 }
 
+/*submenus*/
 .submenus {
 	background-color: grey;
 	border-radius: 0px;
 }
 
-.keynote {
-	padding-right: 50px;
-	padding-left: 50px;
-}
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -45,17 +43,33 @@ iframe {
   border-top: none;
 }
 
+/*keynote content*/
+ .keynote {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  background-color: grey;
+  outline-style: solid;
+  outline-color: black;
+}
+
+.col-12{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
  .kPics {
   	height: 200px;
   }
 
  .vFrame {
  	display: block;
- 	margin-left: auto;
- 	margin-right: auto;
- 	width: 450px;
+ 	align-items: center;
+ 	width: 500px;
  }
 
+/*talks content*/
 .accordion {
   background-color: #eee;
   color: #444;
@@ -79,6 +93,7 @@ iframe {
   overflow: hidden;
 } 
 
+/*posters content*/
 .topic {
   float: left;
   border: 1px solid #ccc;
@@ -87,7 +102,6 @@ iframe {
   height: 300px;
 }
 
-/* Style the buttons inside the tab */
 .topic button {
   display: block;
   background-color: inherit;
@@ -102,17 +116,14 @@ iframe {
   font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
 .topic button:hover {
   background-color: #ddd;
 }
 
-/* Create an active/current "tab button" class */
 .topic button.active {
   background-color: #ccc;
 }
 
-/* Style the tab content */
 .postercontent {
   float: left;
   padding: 0px 12px;
