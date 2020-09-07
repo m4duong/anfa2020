@@ -1,0 +1,11 @@
+.section-title {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  color: white;
+}
+
+.hero-img {
+  height: 30%;
+  background-color: black;
+}
