@@ -1,0 +1,228 @@
+<DOCTYPE! html>
+
+<html lang="en">
+	<head>
+		<title>ANFA Conference</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/navstyle.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="js/subMenu.js"></script>
+		<script src="js/accordion.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<!--sticky navbar-->
+		<div class="navbar">
+			<a href="#">KEYNOTES</a></li>
+			<div class="dropdown">
+				<button class="dropbtn">TALKS</button>
+				<div class="dropdown-content">
+		        	<a href="#">Design Thought Process</a>
+		       		<a href="#">Performance Variables: Biophilia, Color, Light</a>
+		       		<a href="#">Health & Healthcare</a>
+		       		<a href="#">Occupant Behavior in Buildings & Beyond</a>
+		       		<a href="#">Sensory Experience</a>
+		       		<a href="#">Spatial Interactions & Navigation</a>
+		       		<a href="#">Catalysts to Learning Measurement</a>
+		       		<a href="#">Tools: Hardware & Software</a>
+		       	</div>
+		     </div>
+		     <div class="dropdown">
+				<button class="dropbtn">POSTERS</button>
+				<div class="dropdown-content">
+		        	<a href="#">Design Thought Process</a>
+		       		<a href="#">Performance Variables: Biophilia, Color, Light</a>
+		       		<a href="#">Health & Healthcare</a>
+		       		<a href="#">Occupant Behavior in Buildings & Beyond</a>
+		       		<a href="#">Sensory Experience</a>
+		       		<a href="#">Spatial Interactions & Navigation</a>
+		       		<a href="#">Catalysts to Learning Measurement</a>
+		       		<a href="#">Tools: Hardware & Software</a>
+		       	</div>
+		     </div>
+			<a href="#">EXTRAS</a>
+			<a href="#">SPONSORS</a>
+		</div>
+
+		<br>
+
+		<!--salk welcome video-->
+		<div class="d-flex salk">
+			<!--fred info-->
+			<div class="p-2">
+				<img class="fred" src="images/aliens.jpg" alt="">
+			</div>
+			<div class="p-2">	
+				<p>Name</p>
+				<p>bio</p>
+				<p>video description</p>
+			</div>
+
+			<!--embedded video-->
+			<div class="p-2 ml-auto">
+				<iframe src="https://www.youtube.com/embed/mgMs7rsWZKc"></iframe>
+			</div>
+		</div>
+		<button type="button" class="btn salk">See More of Salk!</button> <!--MOVE TO THE RIGHT PLS-->
+		
+		<!--submenus-->
+		<div class="container mt-3">
+			<div class="d-flex justify-content-center">
+				<div class="p-2">
+					<button type="button" class="btn submenus" onclick="openMenu(event, 'Keynotes')" id="defaultOpen">
+					Keynotes
+					<br>
+					Available 9/20 - 9/24
+					</button>
+				</div>
+				<div class="p-2">
+					<button type="button" class="btn submenus" onclick="openMenu(event, 'Talks')">
+						Talks
+						<br>
+						Available 9/16 - 9/24
+					</button>
+				</div>
+				<div class="p-2">
+					<button type="button" class="btn submenus" onclick="openMenu(event, 'Posters')">
+						Posters
+						<br>
+						Available 9/16 - 9/24
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="Keynotes" class="tabcontent">
+			<!--speaker 1-->
+			<div class="container keynote">
+				<div class="row">
+					<div class="col-4">
+						<p>Name</p>
+						<p>title</p>
+						<img src="images/aliens.jpg" alt="" class="kPics">
+						<p>bio</p>
+						<a href="#">Keynote</a>
+					</div>
+					<div class="col-8">
+						<img src="images/aliens.jpg" class="vFrame">
+					</div>
+				</div>
+				<div class="row bg-success">
+					<p>Join us for the live Q&A discussion on DATE at TIME<p>
+				</div>
+			</div>
+			<br><br>
+			<!--speaker 2-->
+			<div class="container keynote">
+				<div class="row">
+					<div class="col-4">
+						<p>Name</p>
+						<p>title</p>
+						<img src="images/aliens.jpg" alt="" class="kPics">
+						<p>bio</p>
+						<a href="#">Keynote</a>
+					</div>
+					<div class="col-8">
+						<img src="images/aliens.jpg" class="vFrame">
+					</div>
+				</div>
+				<div class="row bg-success">
+					<p>Join us for the live Q&A discussion on DATE at TIME<p>
+				</div>
+			</div>
+			<br><br>
+			<!--speaker 3-->
+			<div class="container keynote">
+				<div class="row">
+					<div class="col-4">
+						<p>Name</p>
+						<p>title</p>
+						<img src="images/aliens.jpg" alt="" class="kPics">
+						<p>bio</p>
+						<a href="#">Keynote</a>
+					</div>
+					<div class="col-8">
+						<img src="images/aliens.jpg" class="vFrame">
+					</div>
+				</div>
+				<div class="row bg-success">
+					<p>Join us for the live Q&A discussion on DATE at TIME<p>
+				</div>
+			</div>
+		</div>
+
+		<div id="Talks" class="tabcontent">
+			<button class="accordion">Design Thought Process</button>
+			<div class="panel">
+				<div class="row">
+					<div class="col-3">
+						<p>title</p>
+						<p>author name</p>
+						<a href="#">View Abstract</a>
+					</div>
+				</div>
+			</div>
+			<button class="accordion">Performance Variables: Biophilia, Color, Light</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+			<button class="accordion">Health & Healthcare</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+			<button class="accordion">Occupant Behavior in Buildings & Beyond</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+			<button class="accordion">Sensory Experience</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+			<button class="accordion">Spatial Interactions & Navigation</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+			<button class="accordion">Catalysts to Learning Measurement</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+			<button class="accordion">Tools: Hardware & Software</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>  
+		</div>
+
+		<div id="Posters" class="tabcontent">
+		 	
+		</div>		
+<script>
+	document.getElementById("defaultOpen").click();
+</script>
+<script >
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+} 
+</script>
+	</body>
+</html>
