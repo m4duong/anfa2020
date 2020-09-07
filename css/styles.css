@@ -1,9 +1,23 @@
+/*general styling*/
+p {
+  font-family: 'Roboto';
+}
+
+.name {
+  font-family: 'PT Sans';
+  font-size: 22px;
+}
+
 /*salk banner*/
 .salk {
-	background-color: grey;
+	background-color: #393939;
 	border-radius: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.salk p {
+  color: white;
 }
 
 .fred {
@@ -14,16 +28,31 @@ iframe {
 	width: 444.5px;
 }
 
+.moresalk {
+  background-color: #393939;
+  color: white;
+  border-radius: 0px;
+  position: absolute;
+  right: 50px;
+}
+
 /*submenus*/
 .submenus {
-	background-color: grey;
+	background-color: #D9D5D5;
 	border-radius: 0px;
+  color: #393939;
+  font-family: 'Roboto';
 }
 
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: #D9D5D5;
+}
+
+.submenus:focus {
+  background-color: #393939;
+  color: white;
 }
 
 .tab button {
@@ -48,9 +77,9 @@ iframe {
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 20px;
-  background-color: grey;
-  outline-style: solid;
-  outline-color: black;
+  background-color: #393939;
+ 
+  color: white;
 }
 
 .col-12{
@@ -71,8 +100,8 @@ iframe {
 
 /*talks content*/
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #393939;
+  color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -82,13 +111,9 @@ iframe {
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: #D9D5D5;
   display: none;
   overflow: hidden;
 } 
