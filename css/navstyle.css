@@ -27,7 +27,7 @@ img.anfa-logo{
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .dropdown .dropbtn {
