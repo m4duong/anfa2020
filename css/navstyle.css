@@ -20,9 +20,18 @@ body {
   text-decoration: none;
 }
 
+div.flex1{
+  align-items: baseline;
+}
+
 img.anfa-logo{
   max-height: 50px;
   order: 1;
+}
+
+li.main-link{
+  position: relative;
+  top: 10px;
 }
 
 .dropdown {
