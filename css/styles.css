@@ -61,7 +61,7 @@ iframe {
   color: white;
   border: none;
   outline: 0;
-  box-shadow: none;
+  box-shadow: none !important;
 }
 
 
