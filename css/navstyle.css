@@ -3,16 +3,14 @@ body {
 }
 
 .navbar {
-  overflow: hidden;
-  background-color: #393939;
-
+  /* overflow: initial; */
+  background-color: rgb(39, 38, 38) ;
 }
 .navbar.flex{
   display: flex;
   justify-content: space-around;
-
+  flex-wrap: nowrap;
 }
-
 .navbar a {
   float: left;
   font-size: 16px;
@@ -22,6 +20,10 @@ body {
   text-decoration: none;
 }
 
+img.anfa-logo{
+  max-height: 50px;
+  order: 1;
+}
 
 .dropdown {
   float: left;
@@ -63,7 +65,7 @@ body {
 }
 
 .aia{
-  background-color: rgb(39, 38, 38);
+  background-color: #393939 ;
 }
 
 .dropdown-content a:hover {
