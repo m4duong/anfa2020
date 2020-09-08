@@ -29,16 +29,16 @@ iframe {
 	width: 444.5px;
 }
 
-.btndark {
+.moresalk a{
   background-color: #393939;
   color: white;
   position: absolute;
   right: 50px;
   border-radius: 0 0 7px 7px;
-}
-
-.btndark a {
-  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 /*submenus*/
