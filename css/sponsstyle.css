@@ -1,18 +1,24 @@
 footer {
-	background-color: #393939;
-	color: white;
-	overflow: auto;
+  background-color: #393939;
+  color: white;
+  overflow: auto;
 }
 body {
-	font-family: 'PT Sans';
+  font-family: "PT Sans";
 }
 
 img {
-	height: 80px;
-	margin: 30px;
-	display: inline-block;
+  height: 80px;
+  margin: 30px;
+  display: inline-block;
 }
 
 h3 {
-	text-align: center;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
