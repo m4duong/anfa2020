@@ -51,10 +51,20 @@ iframe {
   background-color: #D9D5D5;
 }
 
+.submenus:hover{
+  background-color: #ccc;
+  color: black;
+}
+
 .submenus:focus {
   background-color: #393939;
   color: white;
+  border: none;
+  outline: 0;
+  box-shadow: none;
 }
+
+
 
 .tab button {
   background-color: inherit;
@@ -71,6 +81,8 @@ iframe {
   padding: 6px 12px;
   /* border: 1px solid #ccc; */
   border-top: none;
+  height: fit-content;
+
 }
 
 /*keynote content*/
@@ -125,7 +137,7 @@ iframe {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 30%;
-  height: 300px;
+  height: fit-content;
 }
 
 .topic button {
@@ -157,4 +169,10 @@ iframe {
   width: 70%;
   border-left: none;
   height: fit-content;
+  padding: 20px;
+  position: inherit;
+}
+
+#spons-placeholder{
+
 }
