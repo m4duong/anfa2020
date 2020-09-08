@@ -29,7 +29,7 @@ iframe {
 	width: 444.5px;
 }
 
-.moresalk {
+.btndark {
   background-color: #393939;
   color: white;
   border-radius: 0px;
@@ -38,7 +38,7 @@ iframe {
   border-radius: 0 0 7px 7px;
 }
 
-.moresalk a {
+.btndark a {
   color: white;
 }
 
