@@ -23,6 +23,7 @@ p {
 .fred {
 	height: 250px;
 }
+
 iframe {
 	height: 250px;
 	width: 444.5px;
@@ -37,6 +38,9 @@ iframe {
   border-radius: 0 0 7px 7px;
 }
 
+.moresalk a {
+  color: white;
+}
 /*submenus*/
 .submenus {
 	background-color: #D9D5D5;
@@ -63,8 +67,6 @@ iframe {
   outline: 0;
   box-shadow: none !important;
 }
-
-
 
 .tab button {
   background-color: inherit;
