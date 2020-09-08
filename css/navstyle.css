@@ -75,6 +75,7 @@ li.main-link{
 
 .aia{
   background-color: #7B7B7B;
+  border-radius: 5px;
 }
 
 .dropdown-content a:hover {
