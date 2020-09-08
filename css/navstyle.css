@@ -5,6 +5,12 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #393939;
+
+}
+.navbar.flex{
+  display: flex;
+  justify-content: space-around;
+
 }
 
 .navbar a {
@@ -15,6 +21,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 .dropdown {
   float: left;
@@ -55,10 +62,16 @@ body {
   text-align: left;
 }
 
+.aia{
+  background-color: rgb(39, 38, 38);
+}
+
 .dropdown-content a:hover {
   background-color: #393939;
+
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
