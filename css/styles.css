@@ -34,6 +34,7 @@ iframe {
   border-radius: 0px;
   position: absolute;
   right: 50px;
+  border-radius: 0 0 7px 7px;
 }
 
 /*submenus*/
