@@ -1,12 +1,13 @@
-.jumbotron {
-	border-radius: 0px;
-	background-color: #393939;
+.hero-img {
+  height: 30%;
+  background-color: #393939;
 }
 
-.jumbotron h1{
-	color: white;
-	text-align: center;
-	font-family: 'PT Sans';
+.section-title {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  color: white;
 }
 
 .speaker {
