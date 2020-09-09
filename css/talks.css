@@ -1,6 +1,6 @@
 .hero-img {
   height: 30%;
-  background-color: #393939;
+  background-color: #2a2a2a;
 }
 
 .section-title {
@@ -11,6 +11,10 @@
   font-family: 'PT Sans';
 }
 
+section {
+  margin: 60px; 
+}
+
 .talk {
   width: 4ev;
   height: 1ev;
@@ -18,6 +22,11 @@
   margin-top: 0px;
   padding: 40px;
   background: lightgray;
+  border-radius: 5px;;
+  margin-right: 120px;
+  margin-left: 120px;
+  padding-right: 50px;
+  padding-top: 50px;
 }
 
 section {
@@ -35,4 +44,20 @@ h4{
 p {
   font-family: 'Roboto';
   color: #393939;
+}
+
+p.blurb {
+  font-style: italic;
+}
+
+p.author{
+  font-size: 1.2em !important;
+}
+
+iframe{
+  width: 700px;
+  max-width: 610px;
+  height: 400px;
+  border-color: transparent;
+  border-radius: 7px;
 }

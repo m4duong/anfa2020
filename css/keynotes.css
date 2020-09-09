@@ -11,8 +11,14 @@
 }
 
 .speaker {
-	background-color: #D9D5D5;
+  /* background-color: #D9D5D5; */
+  padding: 40px;
 }
+.speaker p{
+  font-size: 12px !important;
+}
+
+
 
 h4 {
 	font-family: 'PT Sans';
@@ -29,4 +35,31 @@ p {
 
 .center p {
 	text-align: center;
+}
+
+.zoom-link{
+  /* color: #625999; */
+  font-weight: bold;
+  color: #362985;
+}
+
+.zoom-link:hover{
+  color: #393939;
+}
+
+iframe{
+  width: 700px;
+  max-width: 700px;
+  height: 400px;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+div.col.speaker-img{
+  background-color: #D9D5D5;
+  padding: 20px;
+  border-radius: 20px;
+  height: 290px;
+  max-width: 270px;
+  margin: 20px;
 }
