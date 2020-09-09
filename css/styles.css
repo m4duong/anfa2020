@@ -199,7 +199,7 @@ div.card-header{
 }
 
 .tabcontent{
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 button.btn-link{
@@ -212,7 +212,17 @@ button.btn-link:hover{
   color: lightgrey;
 }
 
+p.talkppl{
+  color: #2a2a2a;
+  font-size: 1.05em;
+  font-weight: 350;
+}
+
 /*posters content*/
+#Posters.tabcontent{
+  margin: 40px;
+}
+
 
 .topic {
   float: left;
