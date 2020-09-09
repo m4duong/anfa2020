@@ -2,23 +2,47 @@ footer {
   background-color: #393939;
   color: white;
   overflow: auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
-body {
+footer body {
   font-family: "PT Sans";
 }
 
-img {
-  height: 80px;
-  margin: 30px;
+footer div.flex{
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+footer img {
+  /* height: 80px;*/
+  margin: 10px; 
+  max-width: 80px;
+  max-height: 80px;
   display: inline-block;
 }
 
-h3 {
-  text-align: center;
+footer .hks-img{
+  max-height: 120px;
+  max-width: 120px;
 }
 
+footer .pe-img{
+  max-height: 130px;
+  max-width: 150px;
+}
+
+footer p {
+  text-align: center;
+  font-style: italic;
+}
 .center {
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
+}
+
+h5{
+  text-align: center;
 }

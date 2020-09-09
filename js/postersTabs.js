@@ -8,6 +8,6 @@ function openTopic(evt, topicName) {
   for (i = 0; i < posterlink.length; i++) {
     posterlink[i].className = posterlink[i].className.replace(" active", "");
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(topicName).style.display = "block";
   evt.currentTarget.className += " active";
 } 
