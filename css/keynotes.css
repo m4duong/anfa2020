@@ -11,7 +11,19 @@
 }
 
 .speaker {
-	background-color: #D9D5D5;
+  /* background-color: #D9D5D5; */
+  padding: 40px;
+}
+.speaker p{
+  font-size: 12px !important;
+}
+
+.speaker-img{
+  background-color: #D9D5D5;
+  padding: 20px;
+  border-radius: 20px;
+  max-height: 300px;
+  margin-top: 20px;
 }
 
 h4 {
