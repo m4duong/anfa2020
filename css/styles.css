@@ -11,8 +11,10 @@ p {
 
 /*live events*/
 .livebox {
-  max-width: 300px;
+  max-width: 200px;
   height: 100%;
+  position: absolute;
+  right: 0;
 }
 
 /*salk banner*/
@@ -21,6 +23,7 @@ p {
   border-radius: 0px;
   padding-left: 20px;
   padding-right: 20px;
+  height: 300px;
 }
 
 .salk p {
@@ -29,11 +32,14 @@ p {
 
 .fred {
   height: 250px;
+  position: relative;
+  right: 0;
 }
 
 .svideo {
   height: 250px;
   width: 444.5px;
+  position: absolute;
 }
 
 .moresalk a {
