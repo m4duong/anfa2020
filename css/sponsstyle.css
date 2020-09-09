@@ -46,3 +46,43 @@ footer p {
 h5{
   text-align: center;
 }
+
+.footer {
+  background-color: #393939;
+  color: white;
+  overflow: auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.footer body {
+  font-family: "PT Sans";
+}
+
+.footer div.flex{
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.footer img {
+  /* height: 80px;*/
+  margin: 10px; 
+  max-width: 80px;
+  max-height: 80px;
+  display: inline-block;
+}
+
+.footer .hks-img{
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.footer .pe-img{
+  max-height: 130px;
+  max-width: 150px;
+}
+
+.footer p {
+  text-align: center;
+  font-style: italic;
+}
