@@ -48,7 +48,7 @@ p {
   background-color: #393939;
   color: white;
   position: absolute;
-  right: 50px;
+  left: 50px;
   border-radius: 0 0 7px 7px;
   padding: 10px;
   text-align: center;
@@ -62,17 +62,21 @@ p {
   border-radius: 5px;
   color: #393939;
   font-family: "Roboto";
+  padding: 10px;
+  box-shadow: none !important;
+  border-color: transparent !important;
+
 }
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   background-color: #d9d5d5;
 }
 
 .submenus:hover {
-  background-color: #ccc;
-  color: black;
+  background-color: #2a2a2a;
+  color: white;
 }
 
 .submenus:focus {
@@ -80,7 +84,7 @@ p {
   color: white;
   border: none;
   outline: 0;
-  box-shadow: none !important;
+
 }
 
 .tab button {
@@ -100,6 +104,7 @@ p {
   padding-top: 20px;
   background-color: #393939;
   color: white;
+  border-radius: 5px;
 }
 
 .col-4{
@@ -109,7 +114,7 @@ p {
 }
 .keynote p.bio{
   font-size: 12px !important;
-  justify-content: justify;
+  text-align: justify;
   margin-top: 9px;
 }
 .col-12 {
