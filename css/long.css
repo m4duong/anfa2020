@@ -135,7 +135,7 @@ body {
   margin: 0;
 }
 
-/* Create three unequal columns that floats next to each other */
+/*salk banner*/
 .column {
   float: left;
   padding: 10px;
@@ -144,7 +144,14 @@ body {
 .column.pic,.info,.video,.live p {
   color: white;
 }
-
+.column.empty {
+  width: 1%;
+  background-color: #393939;
+  border-radius: 0px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
 .column.pic {
   width: 22%;
   background-color: #393939;
@@ -170,7 +177,7 @@ body {
   align-content: center;
 }
 .column.spacee {
-  width: 2%;
+  width: 1%;
 }
 .column.live {
   width: 20%;
