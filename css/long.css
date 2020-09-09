@@ -58,16 +58,14 @@ section.poster, section.talk{
 
 /* Content area for tabs */
 .tab-content {
-  position: relative;
   background: white;
   width: calc(100% - 120px);
   min-height: 100vh;
   padding: 15px;
-  float: left;
   box-sizing: border-box;
   z-index: -1;
   display: none;
-  margin-left: 50px;
+  margin-left: 130px;
 }
 
 .tab-content:after {
@@ -80,7 +78,7 @@ input[name="tab"] {
 }
 /* Show tab when input checked */
 input[name="tab"]:checked + .tab-content {
-  display: inline-block;
+  display: block;
   animation: slide 0.5s forwards;
 }
 
