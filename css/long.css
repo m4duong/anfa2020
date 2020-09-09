@@ -141,6 +141,9 @@ body {
   padding: 10px;
   height:300px;
 }
+.column.pic,.info,.video,.live p {
+  color: white;
+}
 
 .column.pic {
   width: 22%;

@@ -20,7 +20,7 @@ iframe{
 /*live events*/
 .livebox {
   max-width: 250px;
-  height: 100%;
+  
   position: absolute;
   right: 0;
 }
