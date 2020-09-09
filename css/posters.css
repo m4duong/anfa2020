@@ -39,9 +39,9 @@ iframe{
 }
 
 iframe.vid{
-  width: 200px;
-  max-width: 200px;
-  height: 100px;
+  width: 250px;
+  max-width: 250px;
+  height: 150px;
   border-color: transparent;
-  border-radius: 3px;
+  border-radius: 7px;
 }
