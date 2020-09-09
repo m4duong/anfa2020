@@ -88,14 +88,23 @@ iframe {
   color: white;
 }
 
+.col-4{
+  padding: 50px !important;
+}
+.keynote p.bio{
+  font-size: 12px !important;
+  justify-content: justify;
+  margin-top: 9px;
+}
 .col-12 {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 
 .kPics {
-  height: 200px;
+  height: 150px;
 }
 
 .vFrame {
