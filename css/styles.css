@@ -87,6 +87,7 @@ iframe {
   font-size: 17px;
 }
 
+<<<<<<< Updated upstream
 #Posters.tabcontent {
   display: none;
   padding: 6px 12px;
@@ -97,6 +98,8 @@ iframe {
   margin-bottom: 40%;
 }
 
+=======
+>>>>>>> Stashed changes
 /*keynote content*/
 .keynote {
   padding-right: 50px;
@@ -139,9 +142,25 @@ iframe {
   padding: 0 18px;
   background-color: #d9d5d5;
   display: none;
+<<<<<<< Updated upstream
 }
 
 .more a {
+  background-color: #393939;
+  color: white;
+  position: absolute;
+  right: 20px;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+=======
+} 
+>>>>>>> Stashed changes
+
+.more a{
   background-color: #393939;
   color: white;
   position: absolute;
