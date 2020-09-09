@@ -15,37 +15,37 @@
   padding: 40px;
 }
 
-.speaker p{
+.speaker p {
   font-size: 12px !important;
 }
 
 h4 {
-	font-family: 'PT Sans';
+  font-family: "PT Sans";
 }
 
-h4{
-	color: #393939;
+h4 {
+  color: #393939;
 }
 
 p {
-	font-family: 'Roboto';
-	color: #393939;
+  font-family: "Roboto";
+  color: #393939;
 }
 
 .center p {
-	text-align: center;
+  text-align: center;
 }
 
-.zoom-link{
+.zoom-link {
   /* color: #625999; */
   font-weight: bold;
 }
 
-.zoom-link:hover{
+.zoom-link:hover {
   color: #393939;
 }
 
-iframe{
+iframe {
   width: 700px;
   max-width: 700px;
   height: 400px;
@@ -53,11 +53,17 @@ iframe{
   border-radius: 10px;
 }
 
-div.col.speaker-img{
-  background-color: #D9D5D5;
+div.col.speaker-img {
+  background-color: #d9d5d5;
   padding: 20px;
   border-radius: 20px;
   height: 290px;
   max-width: 270px;
   margin: 20px;
+}
+
+.forum {
+  margin: 0 auto;
+  float: none;
+  width: 96%;
 }
