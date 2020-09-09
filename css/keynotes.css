@@ -14,7 +14,15 @@
 	background-color: #D9D5D5;
 }
 
-h4 .bio {
+h4 {
+	font-family: 'PT Sans';
+}
+
+h4{
+	color: #393939;
+}
+
+p {
 	font-family: 'Roboto';
 	color: #393939;
 }

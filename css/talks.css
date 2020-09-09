@@ -8,6 +8,7 @@
   position: relative;
   top: 40%;
   color: white;
+  font-family: 'PT Sans';
 }
 
 .talk {
@@ -21,4 +22,17 @@
 
 section {
   margin-top: 1em;
+}
+
+h4 {
+  font-family: 'PT Sans';
+}
+
+h4{
+  color: #393939;
+}
+
+p {
+  font-family: 'Roboto';
+  color: #393939;
 }

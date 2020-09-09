@@ -1,15 +1,29 @@
+.hero-img {
+  height: 30%;
+  background-color: #393939;
+}
+
 .section-title {
   text-align: center;
   position: relative;
   top: 40%;
   color: white;
-}
-
-.hero-img {
-  height: 30%;
-  background-color: black;
+  font-family: 'PT Sans';
 }
 
 section {
   margin-bottom: 100px;
+}
+
+h2 {
+  font-family: 'PT Sans';
+}
+
+h2{
+  color: #393939;
+}
+
+h4 p {
+  font-family: 'Roboto';
+  color: #393939;
 }
