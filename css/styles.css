@@ -1,28 +1,28 @@
 /*general styling*/
-#page-container{
+#page-container {
   position: relative;
   min-height: 100vh;
 }
 
-#content-wrap{
+#content-wrap {
   padding-bottom: 2.5rem;
 }
 
 p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .name {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-size: 22px;
 }
 
 /*salk banner*/
 .salk {
-	background-color: #393939;
-	border-radius: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
+  background-color: #393939;
+  border-radius: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .salk p {
@@ -30,15 +30,15 @@ p {
 }
 
 .fred {
-	height: 250px;
+  height: 250px;
 }
 
 iframe {
-	height: 250px;
-	width: 444.5px;
+  height: 250px;
+  width: 444.5px;
 }
 
-.moresalk a{
+.moresalk a {
   background-color: #393939;
   color: white;
   position: absolute;
@@ -52,19 +52,19 @@ iframe {
 
 /*submenus*/
 .submenus {
-	background-color: #D9D5D5;
-	border-radius: 5px;
+  background-color: #d9d5d5;
+  border-radius: 5px;
   color: #393939;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #D9D5D5;
+  background-color: #d9d5d5;
 }
 
-.submenus:hover{
+.submenus:hover {
   background-color: #ccc;
   color: black;
 }
@@ -87,7 +87,6 @@ iframe {
   font-size: 17px;
 }
 
-<<<<<<< Updated upstream
 #Posters.tabcontent {
   display: none;
   padding: 6px 12px;
@@ -98,10 +97,8 @@ iframe {
   margin-bottom: 40%;
 }
 
-=======
->>>>>>> Stashed changes
 /*keynote content*/
- .keynote {
+.keynote {
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 20px;
@@ -109,21 +106,21 @@ iframe {
   color: white;
 }
 
-.col-12{
+.col-12 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
- .kPics {
-  	height: 200px;
-  }
+.kPics {
+  height: 200px;
+}
 
- .vFrame {
- 	display: block;
- 	align-items: center;
- 	width: 500px;
- }
+.vFrame {
+  display: block;
+  align-items: center;
+  width: 500px;
+}
 
 /*talks content*/
 .accordion {
@@ -140,11 +137,11 @@ iframe {
 
 .panel {
   padding: 0 18px;
-  background-color: #D9D5D5;
+  background-color: #d9d5d5;
   display: none;
-} 
+}
 
-.more a{
+.more a {
   background-color: #393939;
   color: white;
   position: absolute;
@@ -199,7 +196,7 @@ iframe {
   display: block;
 }
 
-#spons-placeholder{
+#spons-placeholder {
   position: absolute;
   bottom: 0;
   width: 100%;
