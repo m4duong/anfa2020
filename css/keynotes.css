@@ -18,13 +18,7 @@
   font-size: 12px !important;
 }
 
-.speaker-img{
-  background-color: #D9D5D5;
-  padding: 20px;
-  border-radius: 20px;
-  max-height: 300px;
-  margin-top: 20px;
-}
+
 
 h4 {
 	font-family: 'PT Sans';
@@ -59,4 +53,13 @@ iframe{
   height: 400px;
   border-color: transparent;
   border-radius: 10px;
+}
+
+div.col.speaker-img{
+  background-color: #D9D5D5;
+  padding: 20px;
+  border-radius: 20px;
+  height: 290px;
+  max-width: 270px;
+  margin: 20px;
 }
