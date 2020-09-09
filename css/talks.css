@@ -50,9 +50,13 @@ p.blurb {
   font-style: italic;
 }
 
+p.author{
+  font-size: 1.2em !important;
+}
+
 iframe{
   width: 700px;
-  max-width: 600px;
+  max-width: 610px;
   height: 400px;
   border-color: transparent;
   border-radius: 7px;
