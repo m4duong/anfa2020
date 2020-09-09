@@ -1,0 +1,60 @@
+body {
+  font-family: "PT Sans";
+}
+
+div.flex{
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+img {
+  /* height: 80px;*/
+  padding-left: 25px;
+  padding-right: 25px; 
+  max-height: 200px;
+  display: inline-block;
+}
+
+.hks-img {
+  max-width: 300px;
+  position: relative;
+  top: 20%;
+}
+
+.pe-img{
+  max-width: 300px;
+  position: relative;
+  top: 30%;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.talk {
+  width: 4ev;
+  height: 1ev;
+  margin: 60px;
+  margin-top: 0px;
+  padding: 40px;
+  background: lightgray;
+}
+
+.section-title {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  color: white;
+}
+
+.hero-img {
+  height: 30%;
+  background-color: black;
+}
+
+section {
+  margin-top: 1em;
+}
