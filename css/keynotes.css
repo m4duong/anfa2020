@@ -42,3 +42,13 @@ p {
 .center p {
 	text-align: center;
 }
+
+.zoom-link{
+  /* color: #625999; */
+  font-weight: bold;
+  color: #362985;
+}
+
+.zoom-link:hover{
+  color: #393939;
+}
