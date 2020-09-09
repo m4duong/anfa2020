@@ -44,8 +44,8 @@ iframe{
 
 .fred {
   height: 250px;
+  display: inline-block;
   position: absolute;
-  right: 0;
   border-radius: 10px;
   position: relative;
 }
