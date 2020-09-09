@@ -135,10 +135,15 @@ body {
   margin: 0;
 }
 
+.sidespls {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /*salk banner*/
 .column {
-  float: left;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   height:300px;
 }
 .column.pic p,.column.info p,.column.video p,.column.live p {
@@ -146,7 +151,7 @@ body {
 }
 .column.empty {
   width: 1%;
-  background-color: #393939;
+  background-color: white;
   border-radius: 0px;
   height: 300px;
   display: flex;
@@ -159,6 +164,8 @@ body {
   height: 300px;
   display: flex;
   align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .column.info {
   width: 25%;
@@ -167,6 +174,8 @@ body {
   height: 300px;
   display: flex;
   align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .column.video {
   width: 30%;
@@ -175,6 +184,8 @@ body {
   height: 300px;
   display: flex;
   align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .column.spacee {
   width: 1%;
@@ -186,6 +197,8 @@ body {
   height: 300px;
   display: flex;
   align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 /* Clear floats after the columns */
 .row:after {
