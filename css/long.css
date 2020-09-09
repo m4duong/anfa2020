@@ -13,27 +13,42 @@
 .space {
   margin: 20px;
   padding: 10;
+  position: relative;
+}
+section.poster, section.talk{
+  position: absolute;
+  right: 10%;
+}
+.space h3{
+  color: #ccc;
+  text-align: left;
+  margin-left: 10px;;
 }
 
 .tabs-container {
   position: relative;
-  background: #2652cc;
-  width: 120px;
+  background: #2a2a2a;
+  width: 300px;
   height: 228vh;
   float: left;
   z-index: 20;
+  height: fit-content;
+  /* position: sticky;
+  left: 0;
+  top: 0; */
 }
 
 /* tabs names */
 .tabs-container label {
   position: relative;
   padding: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ccc;
   display: block;
   font-size: 13px;
   color: #fff;
   cursor: pointer;
   user-select: none;
+
 }
 
 /* Hover effect on tabs names */
@@ -52,6 +67,7 @@
   box-sizing: border-box;
   z-index: -1;
   display: none;
+  margin-left: 50px;
 }
 
 .tab-content:after {
@@ -64,7 +80,7 @@ input[name="tab"] {
 }
 /* Show tab when input checked */
 input[name="tab"]:checked + .tab-content {
-  display: block;
+  display: inline-block;
   animation: slide 0.5s forwards;
 }
 
