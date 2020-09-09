@@ -143,11 +143,9 @@ body {
 }
 
 .column.pic {
-  width: 20%;
+  width: 22%;
   background-color: #393939;
   border-radius: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
   height: 300px;
   display: flex;
   align-content: center;
@@ -156,8 +154,6 @@ body {
   width: 25%;
   background-color: #393939;
   border-radius: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
   height: 300px;
   display: flex;
   align-content: center;
@@ -166,21 +162,17 @@ body {
   width: 30%;
   background-color: #393939;
   border-radius: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
   height: 300px;
   display: flex;
   align-content: center;
 }
 .column.spacee {
-  width: 5%;
+  width: 2%;
 }
 .column.live {
   width: 20%;
   background-color: #393939;
   border-radius: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
   height: 300px;
   display: flex;
   align-content: center;
