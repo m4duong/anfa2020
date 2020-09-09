@@ -172,6 +172,7 @@ iframe{
   border: none;
   outline: none;
   transition: 0.4s;
+
 }
 
 .panel {
@@ -191,6 +192,16 @@ iframe{
   text-decoration: none;
   display: inline-block;
 }
+
+div.card-header{
+  background-color: #393939 !important;
+  color: white;
+}
+
+.tabcontent{
+  margin-top: 30px;
+}
+
 
 /*posters content*/
 
