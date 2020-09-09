@@ -4,7 +4,7 @@ body {
 
 .navbar {
   /* overflow: initial; */
-  background-color: #393939;
+  background: #393939;
 }
 .navbar.flex{
   display: flex;

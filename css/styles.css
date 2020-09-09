@@ -90,6 +90,8 @@ iframe {
 
 .col-4{
   padding: 50px !important;
+  flex: 0 0 40% !important;
+  max-width: 40% !important;
 }
 .keynote p.bio{
   font-size: 12px !important;
@@ -107,10 +109,13 @@ iframe {
   height: 150px;
 }
 
+.col-8{
+  max-width: 60% !important;
+}
 .vFrame {
   display: block;
   align-items: center;
-  width: 500px;
+  max-width: 500px;
 }
 
 /*talks content*/
