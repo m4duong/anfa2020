@@ -126,3 +126,77 @@ input[name="tab"]:checked + .tab-content {
     float: none;
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*salk banner*/
+.column {
+  float: left;
+  padding: 10px;
+  height:300px;
+}
+.column.pic p,.column.info p,.column.video p,.column.live p {
+  color: white;
+}
+.column.empty {
+  width: 1%;
+  background-color: #393939;
+  border-radius: 0px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
+.column.pic {
+  width: 22%;
+  background-color: #393939;
+  border-radius: 0px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
+.column.info {
+  width: 25%;
+  background-color: #393939;
+  border-radius: 0px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
+.column.video {
+  width: 30%;
+  background-color: #393939;
+  border-radius: 0px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
+.column.spacee {
+  width: 1%;
+}
+.column.live {
+  width: 20%;
+  background-color: #393939;
+  border-radius: 0px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}

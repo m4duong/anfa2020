@@ -9,9 +9,14 @@ p {
   font-size: 22px;
 }
 
+.words {
+  font-family: "Roboto";
+  font-size: 12px;
+}
+
 iframe{
   width: 100%;
-  height: 85%;
+  height: 275px;
   border-color: transparent;
   border-radius: 10px;
   align-self: center;
@@ -20,9 +25,6 @@ iframe{
 /*live events*/
 .livebox {
   max-width: 250px;
-  height: 100%;
-  position: absolute;
-  right: 0;
 }
 
 /*salk banner*/
