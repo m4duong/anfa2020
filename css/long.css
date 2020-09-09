@@ -126,3 +126,51 @@ input[name="tab"]:checked + .tab-content {
     float: none;
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height:300px;
+}
+
+.column.pic {
+  width: 20%;
+  background-color: grey;
+}
+.column.info {
+  width: 25%;
+  background-color: grey;
+}
+.column.video {
+  width: 30%;
+  background-color: grey;
+}
+.column.spacee {
+  width: 5%;
+}
+.column.live {
+  width: 20%;
+  background-color: grey;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
