@@ -1,11 +1,21 @@
 body {
-	background-color: #d9d5d5;
+	background-color: white;
+}
+
+table {
+	table-layout: auto;
+  width: 100%;  
 }
 
 td {
 	font-family: 'Roboto';
 	font-size: 12px;
 }
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+ }
 
 h5 {
 	font-family: 'PT Sans';

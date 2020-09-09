@@ -13,27 +13,42 @@
 .space {
   margin: 20px;
   padding: 10;
+  position: relative;
+}
+section.poster, section.talk{
+  position: absolute;
+  right: 10%;
+}
+.space h3{
+  color: #ccc;
+  text-align: left;
+  margin-left: 10px;;
 }
 
 .tabs-container {
   position: relative;
-  background: #2652cc;
-  width: 120px;
+  background: #2a2a2a;
+  width: 300px;
   height: 228vh;
   float: left;
   z-index: 20;
+  height: fit-content;
+  /* position: sticky;
+  left: 0;
+  top: 0; */
 }
 
 /* tabs names */
 .tabs-container label {
   position: relative;
   padding: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ccc;
   display: block;
   font-size: 13px;
   color: #fff;
   cursor: pointer;
   user-select: none;
+
 }
 
 /* Hover effect on tabs names */
@@ -52,6 +67,7 @@
   box-sizing: border-box;
   z-index: -1;
   display: none;
+  margin-left: 50px;
 }
 
 .tab-content:after {
@@ -64,7 +80,7 @@ input[name="tab"] {
 }
 /* Show tab when input checked */
 input[name="tab"]:checked + .tab-content {
-  display: block;
+  display: inline-block;
   animation: slide 0.5s forwards;
 }
 
@@ -135,16 +151,28 @@ body {
   margin: 0;
 }
 
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  height:300px;
-}
-.column.pic,.info,.video,.live p {
-  color: white;
+.sidespls {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+/*salk banner*/
+.column {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height:300px;
+}
+.column.pic p,.column.info p,.column.video p,.column.live p {
+  color: white;
+}
+.column.empty {
+  width: 1%;
+  background-color: white;
+  border-radius: 0px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
 .column.pic {
   width: 22%;
   background-color: #393939;
@@ -152,6 +180,8 @@ body {
   height: 300px;
   display: flex;
   align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .column.info {
   width: 25%;
@@ -160,6 +190,8 @@ body {
   height: 300px;
   display: flex;
   align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .column.video {
   width: 30%;
@@ -168,9 +200,11 @@ body {
   height: 300px;
   display: flex;
   align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .column.spacee {
-  width: 2%;
+  width: 1%;
 }
 .column.live {
   width: 20%;
@@ -179,6 +213,8 @@ body {
   height: 300px;
   display: flex;
   align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 /* Clear floats after the columns */
 .row:after {
