@@ -144,22 +144,46 @@ body {
 
 .column.pic {
   width: 20%;
-  background-color: grey;
+  background-color: #393939;
+  border-radius: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 300px;
+  display: flex;
+  align-content: center;
 }
 .column.info {
   width: 25%;
-  background-color: grey;
+  background-color: #393939;
+  border-radius: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 300px;
+  display: flex;
+  align-content: center;
 }
 .column.video {
   width: 30%;
-  background-color: grey;
+  background-color: #393939;
+  border-radius: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 300px;
+  display: flex;
+  align-content: center;
 }
 .column.spacee {
   width: 5%;
 }
 .column.live {
   width: 20%;
-  background-color: grey;
+  background-color: #393939;
+  border-radius: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 300px;
+  display: flex;
+  align-content: center;
 }
 /* Clear floats after the columns */
 .row:after {
