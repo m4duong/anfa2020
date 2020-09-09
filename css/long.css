@@ -141,7 +141,7 @@ body {
   padding: 10px;
   height:300px;
 }
-.column.pic,.info,.video,.live p {
+.column.pic p,.column.info p,.column.video p,.column.live p {
   color: white;
 }
 .column.empty {
