@@ -1,21 +1,18 @@
+/** general styling **/
+.navbar-nav {
+  z-index: 20;
+}
+
+.anfa-logo {
+  width: auto;
+  height: auto;
+}
+
 /******************** CSS Vertical Tabs *******************
  ******************* Author: Asif Mughal ******************/
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  line-height: 1.5;
-  padding: 10px;
-}
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-width: 620px;
-  margin: 5px auto;
+.space {
+  margin: 20px;
+  padding: 10;
 }
 
 .tabs-container {
@@ -26,6 +23,7 @@ img {
   float: left;
   z-index: 20;
 }
+
 /* tabs names */
 .tabs-container label {
   position: relative;
@@ -42,6 +40,7 @@ img {
 .tabs-container label:hover {
   background: rgba(0, 0, 0, 0.2);
 }
+
 /* Content area for tabs */
 .tab-content {
   position: relative;
@@ -79,15 +78,6 @@ input[name="tab"]:checked + .tab-content {
     left: 0;
     opacity: 1;
   }
-}
-
-.navbar-nav {
-  z-index: 20;
-}
-
-.anfa-logo {
-  width: auto;
-  height: auto;
 }
 
 @media (min-width: 1200px) {
