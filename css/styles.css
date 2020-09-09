@@ -48,15 +48,6 @@ iframe{
   position: relative;
 }
 
-img.fred::after{
-  content="";
-  width: inherit;
-  height: inherit;
-  background: linear-gradient(#362985,#362985, rgba(54, 41, 133, 0) );
-  position: absolute;
-  bottom: 50px;
-}
-
 .svideo {
   height: 250px;
   width: 444.5px;
