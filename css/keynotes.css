@@ -1,23 +1,21 @@
-.hero-img {
-  height: 15%;
-  background-color: #2a2a2a;
+hr.solid {
+  border-top: 3px solid purple;
 }
 
-.section-title {
-  text-align: center;
-  position: relative;
-  top: 25%;
-  color: white;
+.boxed {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+h2 {
+  font-family: "PT Sans";
+  color: #393939;
 }
 
 div.row {
   text-align: center;
 }
 
-.boxed {
-  margin-left: 30px;
-  margin-right: 30px;
-}
 
 .speaker {
   /* background-color: #D9D5D5; */
