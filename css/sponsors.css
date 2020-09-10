@@ -21,14 +21,12 @@
   margin-right: 30px;
 }
 
-h4 {
+h3 {
   font-family: "PT Sans";
-  text-align: center;
 }
 
 p {
   font-family: 'Roboto';
-  text-align: center;
 }
 div.flex{
   display: flex;
@@ -72,4 +70,13 @@ img {
 }
 section {
   margin-top: 1em;
+}
+
+table {
+  table-layout: auto;
+  width: 100%
+}
+
+table, th, td {
+  padding: 8px;
 }
