@@ -1,5 +1,5 @@
 .hero-img {
-  height: 30%;
+  height: 23%;
   background-color: #2a2a2a;
 }
 
@@ -68,7 +68,7 @@ div.col.speaker-img{
   margin: 30px;
 }
 
-div.col.speaker p, div.col.speaker h2{
+div.col.speaker p, div.col.speaker h2, .zoom-link{
   margin-right: 30%;
   margin-left: 10px;
 }
