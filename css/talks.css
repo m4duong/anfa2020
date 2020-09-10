@@ -53,3 +53,12 @@ iframe {
   display: table;
   clear: both;
 }
+
+hr.solid {
+  border-top: 3px solid purple;
+}
+
+.boxed {
+  margin-left: 70px;
+  margin-right: 70px;
+}
