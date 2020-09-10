@@ -8,6 +8,9 @@
   height: auto;
 }
 
+.pad {
+  padding-left: 55px;
+}
 /******************** CSS Vertical Tabs *******************
  ******************* Author: Asif Mughal ******************/
 .space {
