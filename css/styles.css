@@ -7,11 +7,13 @@ p {
 .name {
   font-family: "PT Sans";
   font-size: 22px;
+  margin-top: 25px;
 }
 
 .words {
   font-family: "Roboto";
   font-size: 12px;
+  max-width: 90%;
 }
 
 iframe{
