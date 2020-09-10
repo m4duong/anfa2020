@@ -1,21 +1,11 @@
-.hero-img {
-  height: 23%;
-  background-color: #2a2a2a;
-}
-
-.section-title {
-  text-align: center;
-  color: white;
-  font-family: "PT Sans";
-}
-
 h4 {
   font-family: "PT Sans";
   color: #393939;
 }
 
-h5 {
+.author {
   margin-top: 20px;
+  text-align: left;
 }
 
 p {
