@@ -1,17 +1,22 @@
 .hero-img {
-  height: 23%;
+  height: 15%;
   background-color: #2a2a2a;
 }
 
 .section-title {
   text-align: center;
   position: relative;
-  top: 40%;
+  top: 25%;
   color: white;
 }
 
 div.row {
   text-align: center;
+}
+
+.boxed {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .speaker {
