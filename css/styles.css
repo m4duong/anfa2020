@@ -27,6 +27,11 @@ iframe{
   max-width: 250px;
 }
 
+.live div.container{
+  padding: auto;
+  margin: auto;
+}
+
 /*salk banner*/
 .salk {
   background-color: #393939;
