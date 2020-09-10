@@ -229,6 +229,9 @@ div.card-header {
 
 button.btn-link {
   color: white;
+}
+button.btn-link {
+  color: white;
   background: #393939;
   text-decoration: none;
 }
@@ -261,32 +264,19 @@ p.talkppl {
   background-color: inherit;
   color: black;
   padding: 22px 16px;
+}
+/*tables*/
+table {
+  table-layout: auto;
   width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.3s;
-  font-size: 17px;
 }
 
-.topic button:hover {
-  background-color: #ddd;
-}
-
-.topic button.active {
-  background-color: #ccc;
-}
-
-.postercontent {
-  float: left;
-  padding: 0px 12px;
-  border: 1px solid #ccc;
-  width: 70%;
-  border-left: none;
-  height: fit-content;
-  padding: 20px;
-  display: block;
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
 /* #spons-placeholder {
@@ -299,4 +289,7 @@ p.talkppl {
 table {
   table-layout: auto;
   width: 100%;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
