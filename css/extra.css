@@ -1,20 +1,24 @@
-.hero-img {
-  height: 23%;
-  background-color: #2a2a2a;
+hr.solid {
+  border-top: 3px solid purple;
 }
 
-.section-title {
-  text-align: center;
-  position: relative;
-  top: 40%;
-  color: white;
-  font-family: 'PT Sans';
+.boxed {
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
-h4 {
-	font-family: 'PT Sans';
-	text-align: center;
+h2 {
+  font-family: "PT Sans";
+  color: #393939;
 }
+
+h3 {
+  font-family: "PT Sans";
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 14px;}
 
 iframe {
 	display: block;
