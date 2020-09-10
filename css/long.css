@@ -65,7 +65,7 @@ section.talk {
   box-sizing: border-box;
   z-index: -1;
   display: none;
-  margin-left: 25rem;
+  margin-left: 21rem;
 }
 
 .tab-content:after {
