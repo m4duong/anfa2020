@@ -1,12 +1,12 @@
 .hero-img {
-  height: 23%;
+  height: 15%;
   background-color: #2a2a2a;
 }
 
 .section-title {
   text-align: center;
   position: relative;
-  top: 40%;
+  top: 10%;
   color: white;
 }
 
@@ -16,10 +16,20 @@
   margin-bottom: 5px;
 }
 
-body {
-  font-family: "PT Sans";
+.boxed {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
+h4 {
+  font-family: "PT Sans";
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto';
+  text-align: center;
+}
 div.flex{
   display: flex;
   justify-content: center;
