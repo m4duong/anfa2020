@@ -5,44 +5,21 @@
 
 .section-title {
   text-align: center;
-  position: relative;
-  top: 40%;
   color: white;
-  font-family: 'PT Sans';
-}
-
-section {
-  margin: 60px; 
-}
-
-.talk {
-  width: 4ev;
-  height: 1ev;
-  margin: 60px;
-  margin-top: 0px;
-  padding: 40px;
-  background: lightgray;
-  border-radius: 5px;;
-  margin-right: 120px;
-  margin-left: 120px;
-  padding-right: 50px;
-  padding-top: 50px;
-}
-
-section {
-  margin-top: 1em;
+  font-family: "PT Sans";
 }
 
 h4 {
-  font-family: 'PT Sans';
-}
-
-h4{
+  font-family: "PT Sans";
   color: #393939;
 }
 
+h5 {
+  margin-top: 20px;
+}
+
 p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #393939;
 }
 
@@ -50,14 +27,29 @@ p.blurb {
   font-style: italic;
 }
 
-p.author{
+p.author {
   font-size: 1.2em !important;
 }
 
-iframe{
+iframe {
   width: 700px;
   max-width: 610px;
   height: 400px;
   border-color: transparent;
   border-radius: 7px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
