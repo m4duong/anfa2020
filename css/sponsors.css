@@ -27,6 +27,7 @@ h3 {
 
 p {
   font-family: 'Roboto';
+  font-size: 14px;
 }
 div.flex{
   display: flex;
@@ -79,4 +80,8 @@ table {
 
 table, th, td {
   padding: 8px;
+}
+
+.small {
+  width: 60%
 }
