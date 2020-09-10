@@ -8,7 +8,7 @@
   position: relative;
   top: 40%;
   color: white;
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
 }
 
 section {
@@ -19,19 +19,19 @@ section {
 }
 
 h2 {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
 }
 
-h2{
+h2 {
   color: #393939;
 }
 
 h4 p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #393939;
 }
 
-iframe{
+iframe {
   width: 700px;
   max-width: 610px;
   height: 400px;
@@ -39,10 +39,31 @@ iframe{
   border-radius: 7px;
 }
 
-iframe.vid{
+iframe.vid {
   width: 250px;
   max-width: 250px;
   height: 150px;
   border-color: transparent;
   border-radius: 7px;
+}
+
+hr.solid {
+  border-top: 3px solid purple;
+}
+
+.boxed {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.posters_img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 100%;
+}
+
+.row {
+  margin-bottom: 4rem;
 }
