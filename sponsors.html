@@ -14,21 +14,71 @@
       />
       <link href="https://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" />
       <link rel="stylesheet" type="text/css" href="css/sponsors.css" />
-      <script src="js/subMenu.js"></script>
-      <script src="js/accordion.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-      <script>
-        $(function () {
-          $("#nav-placeholder").load("nav.html");
-        });
-      </script>
+      <link rel="stylesheet" type="text/css" href="css/navstyle.css" />
+      <link rel="stylesheet" type="text/css" href="css/footer.css" />
     </head>
 
     <body>
-      <div id="nav-placeholder"></div>
+      <nav class="navbar navbar-expand-sm flex">
+        <div class="flex1">
+          <a class="navbar-brand" href="index.html">
+            <img class="anfa-logo" src="http://www.anfarch.org/wp-content/uploads/2019/09/anfa-icon-Full-2-261x300.png">
+          </a>
+      
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item main-link">
+              <div class="dropdown">
+                <button class="dropbtn">KEYNOTES</button>
+                <div class="dropdown-content">
+                    <a href="KeynoteScottMakeig.html">Scott Makeig</a>
+                    <a href="KeynoteAlanPenn.html">Alan Penn</a>
+                    <a href="KeynoteIsabellaBower.html">Isabella Bower</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item main-link">
+              <div class="dropdown">
+                <button class="dropbtn">TALKS</button>
+                <div class="dropdown-content">
+                    <a href="talks1.html">Design Thought Process</a>
+                    <a href="talk2.html">Performance Variables: Biophilia, Color, Light</a>
+                    <a href="talk3.html">Health & Healthcare</a>
+                    <a href="talks4.html">Occupant Behavior in Buildings & Beyond</a>
+                    <a href="talk5.html">Sensory Experience</a>
+                    <a href="talk6.html">Spatial Interactions & Navigation</a>
+                    <a href="talk7.html">Catalysts to Learning Measurement</a>
+                    <a href="talk8.html">Tools: Hardware & Software</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item main-link">
+              <div class="dropdown">
+                <button class="dropbtn">POSTERS</button>
+                <div class="dropdown-content">
+                    <a href="posters1.html">Design Thought Process</a>
+                    <a href="posters2.html">Performance Variables: Biophilia, Color, Light</a>
+                    <a href="posters3.html">Health & Healthcare</a>
+                    <a href="posters4.html">Occupant Behavior in Buildings & Beyond</a>
+                    <a href="posters5.html">Sensory Experience</a>
+                    <a href="posters6.html">Spatial Interactions & Navigation</a>
+                    <a href="posters7.html">Catalysts to Learning Measurement</a>
+                    <a href="posters8.html">Tools: Hardware & Software</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item main-link">
+              <a href="extra.html">EXTRAS</a>
+            </li>
+            <li class="nav-item main-link">
+              <a href="sponsors.html">SPONSORS</a>
+            </li>
+        </div>
+            <li class="nav-item flex2">
+              <a class="aia" target="_blank" href="https://www.dropbox.com/sh/qa7umx5zun58z1v/AAAK1DqEqokxhEntmZiU0Vgla/AIA%20CEU%20Course%20Forms?dl=0&lst=&preview=09.05__AIA+CEU+Course+Form_+ANFA+2020+Conf+05-24-2.pdf&subfolder_nav_tracking=1">AIA EDUCATION FORM</a>
+            </li>
+          </ul>
+      </nav>
 
       <div class="hero-img">
         <div class="section-title">
@@ -40,8 +90,9 @@
       </div>
       <br />
 
-      <div class="container">
-        <br><br>
+      <div class="boxed">
+        <br>
+        <h4>Financial Partners</h4>
         <div class="d-flex justify-content-center">
           <div class="p-2">
             <a href="http://www.perkinseastman.com/" target="_blank">
@@ -59,7 +110,28 @@
             </a>
           </div>
         </div>
+        <br />
+
+        <h4>Anonymous, in memory of John Paul Eberhard</h4>
+
+        <br />
+
+        <h4>In-Kind Sponsors</h4>
+        <div class="d-flex justify-content-center">
+          <div class="p-2">
+            <p>National AIA Committee on Architecture for Education</p>
+            <p>Architectural Research Centers Consortium</p>
+            <p>American Society of Interior Designers</p>
+            <p>Center for Health Design</p>
+            <p>Dana Foundation</p>
+            <p>Melissa Marsh/Plastarc</p>
+          </div>
+        </div>
       </div>
 
+      <footer>
+          <h5>© ANFA 2020 | Sensing Spaces, Perceiving Place</h5>
+      </footer>
+
     </body>
-    </html>
+  </html>
