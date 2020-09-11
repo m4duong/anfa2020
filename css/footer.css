@@ -26,10 +26,10 @@ footer h5{
 th, td {
 	text-align: left;
 	font-family: "Roboto";
-	font-size: 11px;
-	padding: 6px;
 }
 
 #white {
 	color: white;
+	font-size: 11px;
+	padding: 6px;
 }
