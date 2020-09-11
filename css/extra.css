@@ -43,6 +43,10 @@ iframe {
 	float: right;
   }
 
+ img {
+ 	float: right;
+ }
+
  .right {
  	text-align: right;
  }
