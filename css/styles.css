@@ -359,3 +359,22 @@ tr:nth-child(even) {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+
+/* extras */
+
+div.flex-extras{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.extras-btn{
+  font-family: 'PT Sans';
+	display: block;
+	margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #393939;
+  color: white;
+  border: none;
+}
