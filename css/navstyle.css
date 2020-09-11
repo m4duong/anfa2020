@@ -5,6 +5,10 @@ body {
 .navbar {
   /* overflow: initial; */
   background: #393939;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .navbar.flex{
   display: flex;
@@ -31,7 +35,7 @@ img.anfa-logo{
 
 li.main-link{
   position: relative;
-  top: 15px;
+  /*top: 15px;*/
 }
 
 .dropdown {
