@@ -27,11 +27,11 @@ h1 h2 h3 h4 h5 {
   margin-right: 30px;
 }
 
-table a{
+table a {
   color: purple;
 }
 
-table a:hover{
+table a:hover {
   color: black;
 }
 /*headers*/
@@ -106,12 +106,12 @@ div.jump1 {
   width: 200px;
 }
 
-a.view-keynote{
+a.view-keynote {
   color: purple;
   text-decoration: underline;
 }
 
-a.view-keynote:hover{
+a.view-keynote:hover {
   color: black;
 }
 
@@ -335,4 +335,10 @@ tr:nth-child(even) {
 
 #item2 {
   width: 6%;
+}
+
+.col-key {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
 }
