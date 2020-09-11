@@ -11,9 +11,19 @@ table {
   width: 100%;  
 }
 
+h5.livetitle{
+	font-size: 25px;
+	font-weight: 400;;
+}
+
+th{
+	font-size: 20px;
+	font-weight: 500;
+}
+
 td {
 	font-family: 'Roboto';
-	font-size: 12px;
+	font-size: 18px;
 }
 
 td {
@@ -27,5 +37,18 @@ h5 {
 
 a {
 	font-family: 'Roboto';
-	font-size: 12px;
+	font-size: 18px;
+	color: #ccc;
+}
+
+a:hover{
+	color: white;
+}
+
+.livetime{
+	text-align: center;
+}
+
+hr{
+	background-color: #ccc;
 }
