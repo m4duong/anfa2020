@@ -8,6 +8,14 @@ h4 p {
   color: #393939;
 }
 
+div.bottom p{
+  font-size: 14px;
+}
+
+h6{
+  font-weight: 600;
+}
+
 
 .button {
   /* background-color: purple; */
@@ -20,6 +28,7 @@ h4 p {
   margin: 4px 2px;
   cursor: pointer; */
   font-size: 13px;
+  text-decoration: underline;
 }
 
 .button:hover{
