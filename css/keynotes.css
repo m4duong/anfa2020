@@ -10,11 +10,12 @@ hr.solid {
 h2 {
   font-family: "PT Sans";
   color: #393939;
+  text-align: left;
 }
 
-div.row {
+/*div.row {
   text-align: center;
-}
+}*/
 
 .speaker {
   /* background-color: #D9D5D5; */
@@ -48,7 +49,6 @@ p {
 .zoom-link {
   /* color: #625999; */
   color: purple;
-  margin-top: 40px;
   text-align: center;
 }
 
@@ -77,9 +77,9 @@ div.col.speaker h2{
 
 }
 
-div.col.title{
+/*div.col.title{
   text-align: left;
-}
+}*/
 
 div.col.keynotevideo{
   margin-right: 100px;
