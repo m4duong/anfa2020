@@ -32,11 +32,8 @@ hr.solid {
 }
 
 .posters_img {
-  width: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  height: 50%;
+  width: 100%;
+  height: 70%;
 }
 
 .row {
