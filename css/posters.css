@@ -37,12 +37,13 @@ hr.solid {
 
 .posters_img {
   width: 120%;
-  height: 60%;
+  height: 50%;
 }
 
 .row {
   margin-bottom: 5rem;
-  height: 280px;
+  max-height: 280px;
+  height: 250px;
 }
 
 .bottom {
@@ -54,4 +55,3 @@ hr.solid {
   width: 300px;
   height: 2px;
 }
-
