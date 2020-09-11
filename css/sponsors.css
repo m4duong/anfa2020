@@ -2,6 +2,10 @@ hr.solid {
   border-top: 3px solid purple;
 }
 
+.faint {
+  border-top: 3px solid purple;
+  opacity: 0.2;
+}
 .boxed {
   margin-left: 70px;
   margin-right: 70px;
