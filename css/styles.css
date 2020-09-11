@@ -42,17 +42,12 @@ hr.solid {
 /*welcome*/
 iframe {
   width: 100%;
-  height: 275px;
+  /*height: 275px;*/
   border-color: transparent;
   align-self: center;
 }
 
-/*salk*/
-.svideo {
-  height: 250px;
-  width: 444.5px;
-  align-content: center;
-}
+
 
 /*live*/
 .live div.container {
