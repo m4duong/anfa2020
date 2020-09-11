@@ -157,6 +157,10 @@ table {
   margin-top: 50px;
 }
 
+.keynote-role{
+  font-size: 8px;
+}
+
 .keynote {
   padding-right: 50px;
   padding-left: 50px;
@@ -337,6 +341,9 @@ tr:nth-child(even) {
 
 .col-key {
   float: left;
-  width: 33%;
+  /*width: 33%;*/
   padding: 0 10px;
+  width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
