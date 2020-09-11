@@ -34,6 +34,7 @@ table a {
 table a:hover {
   color: black;
 }
+
 /*headers*/
 hr.solid {
   border-top: 3px solid purple;
@@ -42,17 +43,12 @@ hr.solid {
 /*welcome*/
 iframe {
   width: 100%;
-  height: 275px;
+  /*height: 275px;*/
   border-color: transparent;
   align-self: center;
 }
 
-/*salk*/
-.svideo {
-  height: 250px;
-  width: 444.5px;
-  align-content: center;
-}
+
 
 /*live*/
 .live div.container {
@@ -279,6 +275,7 @@ p.talkppl {
   padding: 22px 16px;
 }
 /*tables*/
+
 table {
   table-layout: auto;
   width: 100%;
@@ -290,6 +287,7 @@ td {
   border-collapse: collapse;
   border: 1px solid #ddd;
   padding: 8px;
+  font-size: 12px;
 }
 
 table {
