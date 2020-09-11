@@ -289,12 +289,17 @@ th,
 td {
   border-collapse: collapse;
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 4px;
+}
+
+td {
+  font-size: 12px;
 }
 
 table {
   table-layout: fixed;
 }
+
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
