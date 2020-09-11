@@ -8,23 +8,14 @@ h4 p {
   color: #393939;
 }
 
-div.bottom p{
+div.bottom p {
   font-size: 14px;
 }
 
-h7{
+h7 {
   font-weight: 600;
-  display:block;
-  color: #666666;
-  margin-bottom: 5px;
-}
-
-
-a.button{
   display: block;
 }
-
-
 
 .button {
   /* background-color: purple; */
@@ -38,9 +29,10 @@ a.button{
   cursor: pointer; */
   font-size: 13px;
   text-decoration: underline;
+  margin-right: 6px;
 }
 
-.button:hover{
+.button:hover {
   color: #393939;
 }
 
@@ -62,7 +54,7 @@ hr.solid {
 .row {
   margin-bottom: 5rem;
   max-height: 280px;
-  height: 190px;
+  height: 250px;
 }
 
 .bottom {
@@ -73,5 +65,4 @@ hr.solid {
 .authorline {
   width: 300px;
   height: 2px;
-  margin-bottom: 5px;
 }
