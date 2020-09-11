@@ -1,0 +1,460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_",
+				"_blank"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"col",
+				"col\tTag"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"align",
+				"align-content\tproperty"
+			],
+			[
+				"K",
+				"KeynoteIsabellaBower"
+			],
+			[
+				"Ke",
+				"KeynoteScottMakeig"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"padd",
+				"padding-right\tproperty"
+			],
+			[
+				"pading",
+				"padding-left\tproperty"
+			],
+			[
+				"pad",
+				"padding-right\tproperty"
+			],
+			[
+				"p",
+				"padding-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"paddin",
+				"padding-right\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"alig",
+				"align-content\tproperty"
+			],
+			[
+				"fle",
+				"flex1"
+			],
+			[
+				"paddi",
+				"padding-right\tproperty"
+			],
+			[
+				"fl",
+				"flex1"
+			],
+			[
+				"flex",
+				"flex1"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"margin-",
+				"margin-right\tproperty"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"fot",
+				"font-family\tproperty"
+			],
+			[
+				"bl",
+				"block\tdisplay"
+			],
+			[
+				"con",
+				"align-content\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"outline",
+				"outline-color\tproperty"
+			],
+			[
+				"b",
+				"inline-block\tdisplay"
+			],
+			[
+				"hei",
+				"height\tproperty"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"backgroun",
+				"background-color\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"scan",
+				"scanner-container"
+			],
+			[
+				"contain",
+				"container1"
+			],
+			[
+				"V",
+				"viewProject"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mduon/Desktop/anfa2020/css/styles.css",
+		"/C/Users/mduon/Desktop/anfa2020/index.html",
+		"/C/Users/mduon/Desktop/anfa2020/css/posters.css",
+		"/C/Users/mduon/Desktop/anfa2020/posters1.html",
+		"/C/Users/mduon/Desktop/anfa2020/css/footer.css",
+		"/C/Users/mduon/Desktop/anfa2020/css/navstyle.css",
+		"/C/Users/mduon/Desktop/anfa2020/css/talks.css",
+		"/C/Users/mduon/Desktop/anfa2020/talks1.html",
+		"/C/Users/mduon/Desktop/anfa2020/css/keynotes.css",
+		"/C/Users/mduon/Desktop/anfa2020/KeynoteScottMakeig.html",
+		"/C/Users/mduon/Desktop/anfa2020/extra.html",
+		"/C/Users/mduon/Desktop/anfa2020/css/extra.css",
+		"/C/Users/mduon/Desktop/anfa2020/posters2.html",
+		"/C/Users/mduon/Desktop/anfa2020/posters8.html",
+		"/C/Users/mduon/Desktop/anfa2020/posters7.html",
+		"/C/Users/mduon/Desktop/anfa2020/posters6.html",
+		"/C/Users/mduon/Desktop/anfa2020/posters5.html",
+		"/C/Users/mduon/Desktop/anfa2020/poster4.html",
+		"/C/Users/mduon/Desktop/anfa2020/posters3.html",
+		"/C/Users/mduon/Desktop/anfa2020/talk2.html",
+		"/C/Users/mduon/Desktop/anfa2020/css/sponsors.css",
+		"/C/Users/mduon/Desktop/anfa2020/sponsors.html",
+		"/C/Users/mduon/Desktop/anfa2020/KeynoteAlanPenn.html",
+		"/C/Users/mduon/Desktop/anfa2020/KeynoteIsabellaBower.html",
+		"/C/Users/mduon/Desktop/anfa2020/old htmls/KeynoteIsabellaBower.html",
+		"/C/Users/mduon/Desktop/anfa2020/old htmls/KeynoteAlanPenn.html",
+		"/C/Users/mduon/Desktop/anfa2020/old htmls/KeynoteScottMakeig.html",
+		"/C/Users/mduon/Desktop/anfa2020/footer.html",
+		"/C/Users/mduon/Desktop/anfa2020/old.html",
+		"/C/Users/mduon/Desktop/anfa2020/longhome.html",
+		"/C/Users/mduon/Desktop/anfa2020/css/long.css",
+		"/C/Users/mduon/Desktop/anfa2020/css/sponsstyle.css",
+		"/C/Users/mduon/Desktop/anfa2020/css/livebox.css",
+		"/C/Users/mduon/Desktop/anfa2020/liveevents.html",
+		"/C/Users/mduon/Desktop/anfa2020/anfa2020/css/long.css",
+		"/C/Users/mduon/Desktop/anfa2020/anfa2020/css/styles.css",
+		"/C/Users/mduon/Desktop/anfa2020/anfa2020/longhome.html",
+		"/C/Users/mduon/Desktop/anfa2020/long.css",
+		"/C/Users/mduon/Desktop/anfa2020/nav.html",
+		"/C/Users/mduon/Desktop/portfolio/cssbabi.css",
+		"/C/Users/mduon/Desktop/portfolio/testingwithbabi.html",
+		"/C/Users/mduon/Desktop/anfa2020/posters4.html",
+		"/C/Users/mduon/Desktop/anfa2020/talks4.html",
+		"/C/Users/mduon/Desktop/anfa2020/talk8.html",
+		"/C/Users/mduon/Desktop/anfa2020/talk7.html",
+		"/C/Users/mduon/Desktop/anfa2020/talk6.html",
+		"/C/Users/mduon/Desktop/anfa2020/talk5.html",
+		"/C/Users/mduon/Desktop/anfa2020/talk3.html",
+		"/C/Users/mduon/Desktop/anfa2020/js/postersTabs.js",
+		"/C/Users/mduon/Desktop/anfa2020/home.html",
+		"/C/Users/mduon/Desktop/anfa2020/navbar.html",
+		"/C/Users/mduon/Desktop/anfa2020/js/accordion.js",
+		"/C/Users/mduon/Desktop/anfa2020/js/subMenu.js",
+		"/C/Users/mduon/Desktop/anfa2020/asdfasdf.html",
+		"/C/Users/mduon/Desktop/anfa2020/keynotepage",
+		"/C/Users/mduon/Desktop/ANFA/index.html",
+		"/C/Users/mduon/Desktop/ANFA/css/styles.css",
+		"/C/Users/mduon/Desktop/ANFA/js/postersTabs.js",
+		"/C/Users/mduon/Desktop/ANFA/js/accordion.js",
+		"/C/Users/mduon/Desktop/ANFA/css/navstyle.css",
+		"/C/Users/mduon/Desktop/ANFA/js/subMenu.js",
+		"/C/Users/mduon/Desktop/ANFA/js/navScript.js",
+		"/C/Users/mduon/Desktop/ANFA/js/fredInfo",
+		"/C/Users/mduon/Desktop/ANFA/navstyle",
+		"/C/Users/mduon/Desktop/portfolio/index.html",
+		"/C/Users/mduon/Desktop/CCL/lms-frontend/package.json",
+		"/C/Users/mduon/Desktop/CCL/lms-backend/.env",
+		"/C/Users/mduon/Desktop/CCL/lms-frontend/angular.json",
+		"/C/Users/mduon/Downloads/labthena-dev-data (1).backup",
+		"/C/Users/mduon/Desktop/eng100d/composer.json",
+		"/C/Users/mduon/Desktop/eng100d/index.php",
+		"/C/Users/mduon/Desktop/SeaCycler/eng100d/css/style.css",
+		"/C/Users/mduon/Desktop/SeaCycler/eng100d/js/slider.js",
+		"/C/Users/mduon/Desktop/SeaCycler/eng100d/kiosk.html",
+		"/C/Users/mduon/Desktop/SeaCycler/kiosk.html",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/fridge.html",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/css/style.css",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/homeB.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/node_modules/quagga/dist/quagga.min.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/add.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/home.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/listB.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/list.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/index.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/pantry.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/addB.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/addC.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/freezer.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/freezerB.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/fridgeB.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/fridge.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/home.html",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/recipesB.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/recipes.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/pantryB.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/pantry.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/index.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/homeB.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/add.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/addB.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/freezer.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/freezerB.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/fridge.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/fridgeB.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/routes/home.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/recipes.html",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/pantry.html",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/list.html",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/homeB.html",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/add.html",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/freezer.html",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/public/.home.html.swp",
+		"/C/Users/mduon/Desktop/introHCI/lab9/public/js/introHCI.js",
+		"/C/Users/mduon/Desktop/introHCI/lab9/labs.json",
+		"/C/Users/mduon/Desktop/introHCI/lab9/routes/lab.js",
+		"/C/Users/mduon/Desktop/introHCI/lab9/routes/index.js",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/pantryB.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/recipes.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/recipesB.handlebars",
+		"/C/Users/mduon/Desktop/FridgeBuddies/app/views/.freezer.handlebars.swp",
+		"/C/Users/mduon/Desktop/introHCI/lab8/public/js/camera.js",
+		"/C/Users/mduon/Desktop/introHCI/lab8/public/js/introHCI.js",
+		"/C/Users/mduon/Desktop/introHCI/lab8/public/js/mapQuest.js",
+		"/C/Users/mduon/Desktop/introHCI/lab8/routes/rsvp.js",
+		"/C/Users/mduon/Desktop/introHCI/lab8/views/index.handlebars",
+		"/C/Users/mduon/Downloads/index.html",
+		"/C/Users/mduon/Downloads/scripts.js",
+		"/C/Users/mduon/Downloads/style.css"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "footer.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

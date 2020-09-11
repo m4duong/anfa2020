@@ -10,3 +10,20 @@ footer.h5{
   text-align: center;
   font-family: "PT Sans";
 }
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container > div {
+	margin: 10px;
+	padding: 20px;
+	
+}
+
+th, td {
+	text-align: left;
+	font-family: "Roboto";
+	color: white;
+}
