@@ -6,13 +6,14 @@ footer {
   padding-bottom: 10px;
 }
 
-footer.h5{
+footer h5{
   text-align: center;
   font-family: "PT Sans";
 }
 
 .flex-container {
 	display: flex;
+  justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -25,4 +26,10 @@ footer.h5{
 th, td {
 	text-align: left;
 	font-family: "Roboto";
+	font-size: 11px;
+	padding: 3px;
+}
+
+#white {
+	color: white;
 }
