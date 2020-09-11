@@ -275,17 +275,47 @@ td {
   padding: 8px;
 }
 
-/* #spons-placeholder {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-} */
-
 table {
-  table-layout: auto;
-  width: 100%;
+  table-layout: fixed;
 }
 tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+/*talks tables*/
+#number {
+  width: 5%;
+}
+
+#title {
+  width: 56%;
+}
+
+#author {
+  width: 27%;
+}
+
+#item1 {
+  width: 6%;
+}
+
+#item2 {
+  width: 6%;
+}
+
+/*posters tables*/
+#title {
+  width: 66%;
+}
+
+#author {
+  width: 27%;
+}
+
+#item1 {
+  width: 6%;
+}
+
+#item2 {
+  width: 6%;
 }
