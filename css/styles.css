@@ -10,20 +10,16 @@ h1 h2 h3 h4 h5 {
 .name {
   font-family: "PT Sans";
   font-size: 22px;
-  margin-bottom: 0;
 }
 
 .words {
   font-family: "Roboto";
   font-size: 12px;
-  max-width: 200px;
-  text-align: justify;
-  /* margin-left: 10px; */
+  max-width: 90%;
 }
 
 .words.description {
   font-style: italic;
-  max-width: 100%;
 }
 
 .boxed {
@@ -54,7 +50,7 @@ iframe {
 /*salk*/
 .svideo {
   height: 250px;
-  width: 320px;
+  width: 444.5px;
   align-content: center;
 }
 
@@ -108,7 +104,6 @@ div.jump1 {
 
 .note {
   width: 200px;
-  background-color: #ccc;
 }
 
 a.view-keynote {
@@ -118,10 +113,6 @@ a.view-keynote {
 
 a.view-keynote:hover {
   color: black;
-}
-
-.keynote-role{
-  font-size: 8px;
 }
 
 /*talks*/
@@ -210,83 +201,6 @@ table {
   width: 100%;
 }
 
-/*talks content*/
-.accordion {
-  background-color: #393939;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: #d9d5d5;
-  display: none;
-}
-
-.more a {
-  background-color: #393939;
-  color: white;
-  position: absolute;
-  right: 20px;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-div.card-header {
-  background-color: #393939 !important;
-  color: white;
-}
-
-.tabcontent {
-  margin-top: 50px;
-}
-
-button.btn-link {
-  color: white;
-}
-button.btn-link {
-  color: white;
-  background: #393939;
-  text-decoration: none;
-}
-
-button.btn-link:hover {
-  color: lightgrey;
-}
-
-p.talkppl {
-  color: #2a2a2a;
-  font-size: 1.05em;
-  font-weight: 350;
-}
-
-/*posters content*/
-#Posters.tabcontent {
-  margin: 40px;
-}
-
-.topic {
-  float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: fit-content;
-}
-
-.topic button {
-  display: block;
-  background-color: inherit;
-  color: black;
-  padding: 22px 16px;
-}
 /*tables*/
 table {
   table-layout: auto;
@@ -298,11 +212,7 @@ th,
 td {
   border-collapse: collapse;
   border: 1px solid #ddd;
-  padding: 4px;
-}
-
-td {
-  font-size: 12px;
+  padding: 8px;
 }
 
 table {
@@ -353,31 +263,6 @@ tr:nth-child(even) {
 
 .col-key {
   float: left;
-  /* width: 25%; */
+  width: 25%;
   padding: 0 10px;
-  width: 200px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
-
-
-/* extras */
-
-div.flex-extras{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.extras-btn{
-  font-family: 'PT Sans';
-	display: block;
-	margin-right: 10px;
-  margin-left: 10px;
-  padding: 5px 10px;
-  background-color: #393939;
-  color: white;
-  border: none;
-}
-
-
-/* footer */
