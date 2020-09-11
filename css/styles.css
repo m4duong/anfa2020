@@ -7,10 +7,6 @@ h1 h2 h3 h4 h5 {
   font-family: "PT Sans";
 }
 
-a{
-  color: purple;
-}
-
 .name {
   font-family: "PT Sans";
   font-size: 22px;
@@ -29,6 +25,14 @@ a{
 .boxed {
   margin-left: 30px;
   margin-right: 30px;
+}
+
+table a{
+  color: purple;
+}
+
+table a:hover{
+  color: black;
 }
 /*headers*/
 hr.solid {
@@ -100,6 +104,15 @@ div.jump1 {
 
 .note {
   width: 200px;
+}
+
+a.view-keynote{
+  color: purple;
+  text-decoration: underline;
+}
+
+a.view-keynote:hover{
+  color: black;
 }
 
 /*talks*/
