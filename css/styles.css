@@ -7,6 +7,10 @@ h1 h2 h3 h4 h5 {
   font-family: "PT Sans";
 }
 
+a{
+  color: purple;
+}
+
 .name {
   font-family: "PT Sans";
   font-size: 22px;
