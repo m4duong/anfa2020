@@ -18,6 +18,14 @@ h1 h2 h3 h4 h5 {
   max-width: 90%;
 }
 
+.words1 {
+  font-family: "Roboto";
+  font-size: 12px;
+  max-width: 90%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .words.description {
   font-style: italic;
 }
