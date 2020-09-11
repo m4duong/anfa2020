@@ -10,16 +10,20 @@ h1 h2 h3 h4 h5 {
 .name {
   font-family: "PT Sans";
   font-size: 22px;
+  margin-bottom: 0;
 }
 
 .words {
   font-family: "Roboto";
   font-size: 12px;
-  max-width: 90%;
+  max-width: 200px;
+  text-align: justify;
+  /* margin-left: 10px; */
 }
 
 .words.description {
   font-style: italic;
+  max-width: 100%;
 }
 
 .boxed {
@@ -50,7 +54,7 @@ iframe {
 /*salk*/
 .svideo {
   height: 250px;
-  width: 444.5px;
+  width: 320px;
   align-content: center;
 }
 
@@ -104,6 +108,7 @@ div.jump1 {
 
 .note {
   width: 200px;
+  background-color: #ccc;
 }
 
 a.view-keynote {
@@ -113,6 +118,10 @@ a.view-keynote {
 
 a.view-keynote:hover {
   color: black;
+}
+
+.keynote-role{
+  font-size: 8px;
 }
 
 /*talks*/
@@ -344,6 +353,9 @@ tr:nth-child(even) {
 
 .col-key {
   float: left;
-  width: 25%;
+  /* width: 25%; */
   padding: 0 10px;
+  width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
 }

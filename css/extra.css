@@ -44,7 +44,7 @@ iframe {
   }
 
  .right {
- 	float: right;
+ 	text-align: right;
  }
 
  img {

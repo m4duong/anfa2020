@@ -8,17 +8,21 @@ h4 p {
   color: #393939;
 }
 
+
 .button {
-  background-color: purple;
+  /* background-color: purple; */
   border: none;
-  color: white;
-  padding: 10px 25px;
+  color: purple;
+  /* padding: 10px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 14px;
   margin: 4px 2px;
-  cursor: pointer;
+  cursor: pointer; */
+}
+
+.button:hover{
+  color: #393939;
 }
 
 hr.solid {
@@ -51,8 +55,3 @@ hr.solid {
   height: 2px;
 }
 
-a:hover{
-  color: #393939;
-  text-decoration: none;
-  background-color: #ccc;
-}

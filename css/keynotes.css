@@ -3,8 +3,8 @@ hr.solid {
 }
 
 .boxed {
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 h2 {
@@ -20,7 +20,7 @@ div.row {
   /* background-color: #D9D5D5; */
   padding: 40px;
   text-align: left;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .speaker p {
@@ -38,6 +38,7 @@ h4 {
 p {
   font-family: "Roboto";
   color: #393939;
+  text-align: justify;
 }
 
 .center p {
@@ -46,7 +47,9 @@ p {
 
 .zoom-link {
   /* color: #625999; */
-  font-weight: bold;
+  color: purple;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .zoom-link:hover {
@@ -54,23 +57,30 @@ p {
 }
 
 iframe {
-  width: 700px;
-  max-width: 700px;
-  height: 400px;
+  width: 490px;
+  max-width: 500px;
+  height: 300px;
   border-color: transparent;
 }
 
 div.col.speaker-img {
   background-color: #d9d5d5;
   padding: 20px;
-  height: 300px;
-  max-width: 270px;
-  margin: 30px;
+  height: 100px;
+  max-width: 100px;
+  margin: 4px;
 }
 
 div.col.speaker p,
-div.col.speaker h2,
-.zoom-link {
+div.col.speaker h2{
   margin-right: 30%;
-  margin-left: 10px;
+
+}
+
+div.col.title{
+  text-align: left;
+}
+
+div.col.keynotevideo{
+  margin-right: 100px;
 }
