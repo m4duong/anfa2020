@@ -1,6 +1,10 @@
 h4 {
   font-family: "PT Sans";
   color: #393939;
+  display: inline;
+  gap: normal;
+  line-height: 24px;
+  font-weight: bold;
 }
 
 .author {
@@ -22,25 +26,22 @@ p.author {
 }
 
 iframe {
-  width: 350px;
+  width: 360px;
   max-width: 610px;
-  height: 200px;
+  height: 202px;
   border-color: transparent;
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 50px;
-  text-align: left;
-}
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  margin-left: 40px;
+  margin-bottom: 45px;
+}
+
+.col-9 {
+  padding-left: 65px;
 }
 
 hr.solid {
