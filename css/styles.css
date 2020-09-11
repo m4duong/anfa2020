@@ -358,8 +358,12 @@ tr:nth-child(even) {
   width: 20%;
 }
 
+#enames {
+  width: 15%
+}
+
 #desc {
-  width: 65%;
+  width: 50%;
 }
 
 #elink {
