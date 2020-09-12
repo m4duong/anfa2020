@@ -8,10 +8,7 @@ footer {
   font-family: "Roboto";
 }
 
-.flex-container {
-	display: grid;
-  justify-content: center;
-}
+
 
 /*.flex-container > div {
 	margin: 30px;
