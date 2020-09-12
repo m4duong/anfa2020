@@ -56,3 +56,7 @@ a:hover {
 p {
 	margin-bottom: 0 !important;  
 }
+
+.padded {
+	padding-left: 38px;
+}
