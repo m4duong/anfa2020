@@ -41,8 +41,8 @@ a:hover {
 }
 
 .boxy {
-	margin-left: 30px;
-	margin-right: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .right {
