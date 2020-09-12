@@ -36,20 +36,8 @@ footer {
 	padding-right: 5px;
 	padding-left: 5px;
 }
-#wide > a:hover {
-	color: purple;
-}
-
-#narrow > a:hover {
-	color: purple;
-}
-#wide {
-	margin-right: 5px;
-}
-
-#narrow {
-	margin-right: 5px;
-	color: white;
+.row > a:hover {
+	color: #cc99cc;
 }
 
 .boxy {
