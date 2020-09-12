@@ -81,3 +81,11 @@ table, th, td {
 .small {
   width: 60%
 }
+.sponlink{
+  color: #393939;
+  text-decoration: none;
+}
+.sponlink:hover{
+  color: purple;
+  text-decoration: underline;
+}
