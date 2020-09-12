@@ -93,6 +93,7 @@ table, th, td {
 /*john*/
 .container {
   position: relative;
+  text-align: center;
 }
 
 .text-block {
@@ -103,4 +104,8 @@ table, th, td {
   padding-left: 20px;
   padding-right: 20px;
   width: 423px;
+}
+
+img.johnimg{
+  margin-bottom: 15px;
 }
