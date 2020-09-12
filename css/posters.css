@@ -48,21 +48,26 @@ hr.solid {
 
 .posters_img {
   width: 120%;
-  height: 50%;
+  height: 70%;
 }
 
 .row {
   margin-bottom: 5rem;
   max-height: 280px;
-  height: 250px;
+  height: 140px;
 }
 
-.bottom {
+/* .bottom {
   position: absolute;
   bottom: 0;
-}
+} */
 
 .authorline {
-  width: 300px;
+  margin-top: -10px;
+  width: 100%;
   height: 2px;
+}
+
+.nope{
+  color: red;
 }
