@@ -67,10 +67,8 @@ iframe.livebox {
 }
 
 .padded {
-  padding-left: 52px;
+  padding-left: 70px;
 }
-
-
 
 /*live*/
 .live div.container {
@@ -173,9 +171,9 @@ table {
 }
 
 .col-4 {
-  padding: 50px !important;
+  /*padding: 50px !important;*/
   flex: 0 0 40% !important;
-  max-width: 40% !important;
+  /*max-width: 40% !important;*/
 }
 .keynote p.bio {
   font-size: 12px !important;
