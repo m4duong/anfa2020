@@ -89,3 +89,17 @@ table, th, td {
   color: purple;
   text-decoration: underline;
 }
+
+/*john*/
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
