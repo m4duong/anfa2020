@@ -59,8 +59,8 @@ iframe.svideo {
   align-self: center;
 }
 
-iframe.livebox {
-  width: 100%;
+.glance {
+  width: 95%;
   height: 275px;
   border-color: transparent;
   align-self: center;
