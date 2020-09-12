@@ -36,6 +36,10 @@ h7 {
   color: #393939;
 }
 
+.button.video{
+  color: rgb(69, 71, 189);
+}
+
 hr.solid {
   border-top: 3px solid purple;
   margin-bottom: 20px;
