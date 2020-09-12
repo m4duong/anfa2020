@@ -57,14 +57,14 @@ hr.solid {
 /*welcome*/
 iframe.svideo {
   width: 100%;
-  height: 70%;
+  height: auto;
   border-color: transparent;
   align-self: center;
 }
 
 .glance {
-  width: 95%;
-  height: 100%;
+  width: 100%;
+  height: auto;
   border-color: transparent;
   align-self: center;
 }
@@ -370,7 +370,7 @@ tr:nth-child(even) {
   width: 15%;
 }
 
-/*cols*/
+/*cols responsive*/
 .row::after {
   content: "";
   clear: both;
