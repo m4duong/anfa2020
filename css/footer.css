@@ -37,14 +37,16 @@ footer {
 	color: purple;
 }
 
+#narrow > a:hover {
+	color: purple;
+}
 #wide {
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 5px;
 }
 
 #narrow {
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 5px;
+	color: white;
 }
 
 .boxy {
