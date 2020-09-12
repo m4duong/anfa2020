@@ -84,3 +84,11 @@ div.col.speaker h2{
 div.col.keynotevideo{
   margin-right: 100px;
 }
+
+div.forum a{
+  color: purple;
+}
+
+div.forum a:hover{
+  color: #393939;
+}
