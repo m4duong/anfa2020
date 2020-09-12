@@ -52,3 +52,8 @@ hr.solid {
   margin-left: 70px;
   margin-right: 70px;
 }
+
+h2 {
+  text-align: center;
+  padding-top: 80px;
+}
