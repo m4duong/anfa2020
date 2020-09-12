@@ -29,7 +29,8 @@ div.flex1{
 }
 
 img.anfa-logo{
-  max-height: 50px;
+  height: 35px;
+  width: 30px;
   order: 1;
 }
 
