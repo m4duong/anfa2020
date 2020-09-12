@@ -25,6 +25,7 @@
     <link rel="stylesheet" type="text/css" href="./css/talks.css" />
     <link rel="stylesheet" type="text/css" href="./css/navstyle.css" />
     <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <script src="./js/talks.js"></script>
   </head>
   <body>
 
@@ -101,17 +102,19 @@
         
     
         <br />
-          <div class="row">
-              <iframe src="https://www.youtube.com/embed/Nd77rmMEAWg" ></iframe>
-              <iframe src="https://www.youtube.com/embed/LSvh1GlPU8U" ></iframe>
-              <iframe src="https://www.youtube.com/embed/uTZng8Y3RY0" ></iframe>
-          </div>
+         
           <div class="row">
             <div class="col-3">
+              <iframe id="p1" class="video" src="https://www.youtube.com/embed/Nd77rmMEAWg"  ></iframe>
+              <iframe id="p2" class="video" src="https://www.youtube.com/embed/LSvh1GlPU8U" style="display: none;"></iframe>
+              <iframe id="p3" class="video" src="https://www.youtube.com/embed/uTZng8Y3RY0" style="display: none;" ></iframe>
             </div>
             <div class="col-9" >
               <h4 style="text-align:left">Engaging Spatial Maps with Multisensory Illusions (55)</h4>               
               <h5>Debajyoti Pati, Apoorva Rane, David A. Navarrete, Bill Witherspoon</h5>
+              <a class="tablink" onclick="openVideo(event, 'p1')" >part 1</a> 
+              <a class="tablink" onclick="openVideo(event, 'p2')" >part 2</a>
+              <a class="tablink" onclick="openVideo(event, 'p3')">part 3</a>  
               <br>
               <a  href="https://drive.google.com/file/d/1i6mxESAeKQ3XmxEgWRhRpc6AaDiL8YyT/view?usp=sharing">View Abstract</a>
             </div>  
