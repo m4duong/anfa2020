@@ -72,23 +72,26 @@ div.col.speaker-img {
 }
 
 div.col.speaker p,
-div.col.speaker h2{
+div.col.speaker h2 {
   margin-right: 30%;
-
 }
 
 /*div.col.title{
   text-align: left;
 }*/
 
-div.col.keynotevideo{
+div.col.keynotevideo {
   margin-right: 100px;
 }
 
-div.forum a{
+div.forum a {
   color: purple;
 }
 
-div.forum a:hover{
+div.forum a:hover {
   color: #393939;
+}
+
+.forum {
+  margin-left: 22px;
 }
