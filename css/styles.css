@@ -66,6 +66,10 @@ iframe.livebox {
   align-self: center;
 }
 
+.padded {
+  padding-left: 52px;
+}
+
 
 
 /*live*/
