@@ -89,12 +89,11 @@ div.col.keynotevideo {
   margin-right: 100px;
 }
 
-div.forum a {
-  color: purple;
-}
 
 div.forum a:hover {
   color: #393939;
+  background-color: #ccc;
+  text-decoration: none;
 }
 
 .forum {
@@ -122,10 +121,12 @@ div.session{
 
 div.session h5{
   font-weight: 550;
+  margin-bottom: 1px;
 }
 
 span{
   font-size: min(10vw, 12px);
+  display: block;
 }
 
 div.session a{
@@ -135,4 +136,11 @@ div.session a{
   padding: 3px 7px;
   border-radius: 0;
   align-self: left;
+  margin-top: 5px;
+}
+
+div.session a:hover{
+  color: #393939;
+  background-color: #ccc;
+  text-decoration: none;
 }
