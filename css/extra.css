@@ -28,17 +28,22 @@ p {
 button {
 	font-family: 'PT Sans';
 	display: block;
-	margin-right: 10px;
-	margin-left: 10px;
+  margin-right: 10px;
 
 }
 
-.btn {
+section .btn {
 	background-color: #393939;
 	color: white;
-	margin-bottom: 8px;
+  margin-bottom: 12px;
+  padding: 3px 7px;
+  border-radius: 0;
 }
 
+.day{
+  margin-bottom: 0;
+  font-size: min(10vw, 16px);
+}
 iframe {
 	border-color: transparent;
 	float: right;
@@ -61,6 +66,12 @@ iframe {
  	font-family: "Roboto";
  	font-size: 18px;
  }
+
+ .fainthr {
+  border-top: 3px solid purple;
+  opacity: 0.2;
+
+}
 
  /* responsivity */
 * {
