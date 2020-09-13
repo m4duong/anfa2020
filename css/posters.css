@@ -82,50 +82,47 @@ hr.solid {
   box-sizing: border-box;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pic {
+  width: 6%;
+  height: auto;
+  margin-top: 1%
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
+.descript {
+  width: 23%;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
+@media only screen 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .pic {
+      width: 60%;
+      height: 30%;
 
-.col-1 {
-  width: 8.33%;
-}
-.col-2 {
-  width: 16.66%;
-}
-.col-3 {
-  width: 25%;
-}
-.col-4 {
-  width: 33.33%;
-}
-.col-5 {
-  width: 41.66%;
-}
-.col-6 {
-  width: 50%;
-}
-.col-7 {
-  width: 58.33%;
-}
-.col-8 {
-  width: 66.66%;
-}
-.col-9 {
-  width: 75%;
-}
-.col-10 {
-  width: 83.33%;
-}
-.col-11 {
-  width: 91.66%;
-}
-.col-12 {
-  width: 100%;
+    }
+
+    .descript {
+      width: 100%;
+      height: auto;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 0%;
+      margin-bottom: 20%;
+    }
+
+    .authorline {
+      margin: 0%;
+    }
+
+    p {
+      margin: 0%;
+    }
 }
