@@ -543,7 +543,7 @@ tr:nth-child(even) {
   }
 
   th.name {
-    colspan: 3;
+    column-span: 3;
   }
 
   /*posters tables*/
