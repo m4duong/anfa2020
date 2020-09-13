@@ -56,7 +56,7 @@ p {
   color: #393939;
 }
 
-iframe {
+img.holder, iframe {
   width: 490px;
   max-width: 500px;
   height: 300px;
@@ -76,9 +76,14 @@ div.col.speaker h2 {
   margin-right: 30%;
 }
 
-/*div.col.title{
+.title h5{
+  font-weight: bold;
+}
+
+div.col.title{
   text-align: left;
-}*/
+  padding-left: 8px;
+}
 
 div.col.keynotevideo {
   margin-right: 100px;
@@ -93,5 +98,41 @@ div.forum a:hover {
 }
 
 .forum {
-  margin-left: 22px;
+  margin-left: 0px;
+  margin-bottom: 12px;
+}
+
+
+.instructions{
+  font-size: min(10vw, 12px);
+}
+
+div.forum a{
+  background-color: #393939;
+	color: white;
+  margin-bottom: 12px;
+  padding: 3px 7px;
+  border-radius: 0;
+  align-self: left;
+}
+
+div.session{
+  padding: 0;
+}
+
+div.session h5{
+  font-weight: 550;
+}
+
+span{
+  font-size: min(10vw, 12px);
+}
+
+div.session a{
+  background-color: #393939;
+	color: white;
+  margin-bottom: 12px;
+  padding: 3px 7px;
+  border-radius: 0;
+  align-self: left;
 }
