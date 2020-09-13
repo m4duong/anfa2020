@@ -25,7 +25,6 @@ h1 h2 h3 h4 h5 {
   margin-bottom: 0;
 }
 
-
 .words.description {
   font-style: italic;
   max-width: 100%;
@@ -46,6 +45,10 @@ table a {
 
 table a:hover {
   color: black;
+}
+
+.mobile {
+  display: none;
 }
 
 /*headers*/
@@ -285,9 +288,12 @@ p.talkppl {
   padding: 22px 16px;
 }
 
+/*extras*/
+ul {
+  padding-left: 10px;
+}
 
 /*tables*/
-
 table {
   table-layout: auto;
   width: 100%;
@@ -482,6 +488,14 @@ tr:nth-child(even) {
       margin-right: 0%;
     }
 
+    .compview {
+      display: none;
+    }
+
+    .mobile{
+      display: block;
+    }
+
     /*welcome*/
     iframe.svideo {
       width: 100%;
@@ -506,14 +520,6 @@ tr:nth-child(even) {
     }
 
     /*talks tables*/
-    .compview {
-      display: none;
-    }
-
-    .mobileview {
-      display: block;
-    }
-
     table.talktable td{
       font-size: 2vw;
       padding: 1.5px;
@@ -559,37 +565,35 @@ tr:nth-child(even) {
       padding: 2px;
     }
 
-    table.talkpost tr td:nth-child(0) {
-      display: none;
-    }
-
-    table.talkpost col:nth-child(5) {
-      visibility: collapse;
-    }
-
     #title2 {
-      width: 62%;
+      width: 60%;
     }
 
     #author2 {
-      width: 26%;
+      width: 30%;
     }
 
     #item3 {
-      width: 6%;
-    }
-
-    #item4 {
-      width: 6%;
+      width: 10%;
     }
 
     /*extras tables*/
+    table.extable td{
+      font-size: 2vw;
+      padding: 1.5px;
+    }
+
+    table.extable th{
+      font-size: 3vw;
+      padding: 2px;
+    }
+
     #etitle {
-      width: 20%;
+      width: 15%;
     }
 
     #enames {
-      width: 15%
+      width: 20%
     }
 
     #desc {
@@ -598,5 +602,10 @@ tr:nth-child(even) {
 
     #elink {
       width: 15%;
+    }
+
+    .anfasmall {
+      width: 100%;
+      height:auto;
     }
 }
