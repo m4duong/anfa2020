@@ -6,6 +6,11 @@
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link
         rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link
+        rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       />
       <link
@@ -23,70 +28,15 @@
       <link rel="stylesheet" type="text/css" href="css/extra.css" />
       <link rel="stylesheet" type="text/css" href="css/navstyle.css" />
       <link rel="stylesheet" type="text/css" href="css/footer.css" />
+      <script>
+        $(function () {
+          $("#nav-placeholder").load("nav.html");
+        });
+      </script>
     </head>
 
     <body>
-      <nav class="navbar navbar-expand-sm flex">
-        <div class="flex1">
-          <a class="navbar-brand" href="index.html">
-            <img class="anfa-logo" src="http://www.anfarch.org/wp-content/uploads/2019/09/anfa-icon-Full-2-261x300.png">
-          </a>
-      
-          <!-- Links -->
-          <ul class="navbar-nav">
-            <li class="nav-item main-link">
-              <div class="dropdown">
-                <button class="dropbtn">KEYNOTES</button>
-                <div class="dropdown-content">
-                    <a href="KeynoteScottMakeig.html">Scott Makeig</a>
-                    <a href="KeynoteAlanPenn.html">Alan Penn</a>
-                    <a href="KeynoteIsabellaBower.html">Isabella Bower</a>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item main-link">
-              <div class="dropdown">
-                <button class="dropbtn">TALKS</button>
-                <div class="dropdown-content">
-                    <a href="talks1.html">Design Thought Process</a>
-                    <a href="talks2.html">Performance Variables: Biophilia, Color, Light</a>
-                    <a href="talks3.html">Health & Healthcare</a>
-                    <a href="talks4.html">Occupant Behavior in Buildings & Beyond</a>
-                    <a href="talks5.html">Sensory Experience</a>
-                    <a href="talks6.html">Spatial Interactions & Navigation</a>
-                    <a href="talks7.html">Catalysts to Learning</a>
-                    <a href="talks8.html">Measurement Tools: Hardware & Software</a>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item main-link">
-              <div class="dropdown">
-                <button class="dropbtn">POSTERS</button>
-                <div class="dropdown-content">
-                    <a href="posters1.html">Design Thought Process</a>
-                    <a href="posters2.html">Performance Variables: Biophilia, Color, Light</a>
-                    <a href="posters3.html">Health & Healthcare</a>
-                    <a href="posters4.html">Occupant Behavior in Buildings & Beyond</a>
-                    <a href="posters5.html">Sensory Experience</a>
-                    <a href="posters6.html">Spatial Interactions & Navigation</a>
-                    <a href="posters7.html">Catalysts to Learning</a>
-                    <a href="posters8.html">Measurement Tools: Hardware & Software</a>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item main-link">
-              <a href="extra.html">EXTRAS</a>
-            </li>
-            <li class="nav-item main-link">
-              <a href="sponsors.html">SPONSORS</a>
-            </li>
-        </div>
-            <li class="nav-item flex2">
-              <a class="aia" href="pdf/aiaform.pdf" download>AIA EDUCATION FORM</a>
-            </li>
-          </ul>
-      </nav>
-
+      <div id="nav-placeholder"></div>
 
       <br /><br />
 
@@ -99,58 +49,73 @@
           <div class="row">
             <div class="col-3">
               <div>
-                <iframe src="https://www.youtube.com/embed/uDnZlwIdKP4?rel=0" allowfullscreen></iframe>
+                <iframe
+                  src="https://www.youtube.com/embed/uDnZlwIdKP4?rel=0"
+                  allowfullscreen
+                ></iframe>
                 <div class="right">
-                  <p class="italics" style="text-align:right;">Running time – 26:41 minutes</p>
+                  <p class="italics" style="text-align: right">
+                    Running time – 26:41 minutes
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-5">
               <h4 class="title" id="beyond">Beyond Intuition</h4>
               <p>
-                Produced in 2003, Beyond Intuition tells the story of how ANFA started as a nonprofit organization. It is a tribute to John Paul Eberhard’s vision and the many architects and scientists who joined him in making his foresight a reality.
+                Produced in 2003, Beyond Intuition tells the story of how ANFA
+                started as a nonprofit organization. It is a tribute to John
+                Paul Eberhard’s vision and the many architects and scientists
+                who joined him in making his foresight a reality.
               </p>
             </div>
             <div class="col-3"></div>
           </div>
         </section>
 
-
         <hr class="fainthr" />
 
         <section id="extra2">
           <div class="row">
             <div class="col-3">
-              <div >
+              <div>
                 <!--<iframe src=""></iframe>-->
-                <img src="images/anfavoicesbig.png">
+                <img src="images/anfavoicesbig.png" />
                 <div class="right">
-                  <p class="italics">Total running time all speakers– 50 minutes</p>
+                  <p class="italics">
+                    Total running time all speakers– 50 minutes
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <h4 class="title" id="voices">ANFA Voices</h4>
               <p>
-                ANFA VOICES is a new project headed by Dr. Kristine Mun to create a series of short 
-                commentaries presented by our Advisory Council members and the Board of Directors 
-                expressing their views on Neuroscience for Architecture to our global audience. 
-                It is a way to share openly and to discuss from their personal experience how 
-                neuroscience and architecture are connected, why we need to consider this relationship 
-                as relevant and what kind of research directions they have taken with this topic. 
-                Set in a casual manner, like a conversation between colleagues, the VOICES series 
-                will be ongoing to open up dialogues between ANFA and the public at large as 
-                we build our community of researchers, scientists, architects and designers interested 
-                in the field of Neuroscience for Architecture.
+                ANFA VOICES is a new project headed by Dr. Kristine Mun to
+                create a series of short commentaries presented by our Advisory
+                Council members and the Board of Directors expressing their
+                views on Neuroscience for Architecture to our global audience.
+                It is a way to share openly and to discuss from their personal
+                experience how neuroscience and architecture are connected, why
+                we need to consider this relationship as relevant and what kind
+                of research directions they have taken with this topic. Set in a
+                casual manner, like a conversation between colleagues, the
+                VOICES series will be ongoing to open up dialogues between ANFA
+                and the public at large as we build our community of
+                researchers, scientists, architects and designers interested in
+                the field of Neuroscience for Architecture.
               </p>
             </div>
             <div class="col-3"></div>
           </div>
-          <br>
+          <br />
           <div class="row">
             <div class="col-3">
-              <div >
-                <iframe src="https://www.youtube.com/embed/QKFyRUKLLhs?rel=0" allowFullScreen></iframe>
+              <div>
+                <iframe
+                  src="https://www.youtube.com/embed/QKFyRUKLLhs?rel=0"
+                  allowfullscreen
+                ></iframe>
                 <div class="right">
                   <p class="italics">Running time – 13:43 minutes</p>
                 </div>
@@ -159,16 +124,26 @@
             <div class="col-6">
               <h4 class="subtitle">Colin Ellard | ANFA Voices Speaker #1</h4>
               <p>
-                Colin Ellard is a professor of psychology, specializing in cognitive neuroscience, at the University of Waterloo in Canada. He is particularly interested in understanding the emotional effects of architectural settings, which he explores in both field settings and in synthetic environments using immersive virtual reality.  Ellard received his BSc in psychology and philosophy at the University of Toronto and his doctorate at Western University.
+                Colin Ellard is a professor of psychology, specializing in
+                cognitive neuroscience, at the University of Waterloo in Canada.
+                He is particularly interested in understanding the emotional
+                effects of architectural settings, which he explores in both
+                field settings and in synthetic environments using immersive
+                virtual reality. Ellard received his BSc in psychology and
+                philosophy at the University of Toronto and his doctorate at
+                Western University.
               </p>
             </div>
             <div class="col-3"></div>
           </div>
-          <br>
+          <br />
           <div class="row">
             <div class="col-3">
-              <div >
-                <iframe src="https://www.youtube.com/embed/kCoYqguol6k?rel=0" allowFullScreen></iframe>
+              <div>
+                <iframe
+                  src="https://www.youtube.com/embed/kCoYqguol6k?rel=0"
+                  allowfullscreen
+                ></iframe>
                 <div class="right">
                   <p class="italics">Running time – 11:44 minutes</p>
                 </div>
@@ -177,16 +152,27 @@
             <div class="col-6">
               <h4 class="subtitle">Andrea Jelic | ANFA Voices Speaker #2</h4>
               <p>
-                Andrea Jelić is a researcher, architect, and educator at Aalborg University, Department of Architecture, Design and Media Technology in Denmark, working at the intersection of architecture, enactive-embodied cognitive science, neuroscience, and philosophy/phenomenology, with the aim of developing an integrative, interdisciplinary approach to conceptualizing and investigating people’s experience of the built environment that can be embraced in user-centered and research-based design for health and well-being 
+                Andrea Jelić is a researcher, architect, and educator at Aalborg
+                University, Department of Architecture, Design and Media
+                Technology in Denmark, working at the intersection of
+                architecture, enactive-embodied cognitive science, neuroscience,
+                and philosophy/phenomenology, with the aim of developing an
+                integrative, interdisciplinary approach to conceptualizing and
+                investigating people’s experience of the built environment that
+                can be embraced in user-centered and research-based design for
+                health and well-being
               </p>
             </div>
             <div class="col-3"></div>
           </div>
-          <br>
+          <br />
           <div class="row">
             <div class="col-3">
-              <div >
-                <iframe src="https://www.youtube.com/embed/RaVimrHk6oY?rel=0" allowFullScreen></iframe>
+              <div>
+                <iframe
+                  src="https://www.youtube.com/embed/RaVimrHk6oY?rel=0"
+                  allowfullscreen
+                ></iframe>
                 <div class="right">
                   <p class="italics">Running time – 6:26 minutes</p>
                 </div>
@@ -195,16 +181,26 @@
             <div class="col-6">
               <h4 class="subtitle">Susan Magsamen | ANFA Voices Speaker #3</h4>
               <p>
-                Susan Magsamen is the Executive Director for International Arts + Mind Lab Brain Science Institute at Johns Hopkins University School of Medicine. Over the last 15 years, she have actively participated in the development of two emerging progressive fields: neuroaesthetics and the science of learning. These dynamic and evolving interdisciplinary disciplines offer the promise of rigorous research to practice and enhanced outcomes, across a range of societal issues.
+                Susan Magsamen is the Executive Director for International Arts
+                + Mind Lab Brain Science Institute at Johns Hopkins University
+                School of Medicine. Over the last 15 years, she have actively
+                participated in the development of two emerging progressive
+                fields: neuroaesthetics and the science of learning. These
+                dynamic and evolving interdisciplinary disciplines offer the
+                promise of rigorous research to practice and enhanced outcomes,
+                across a range of societal issues.
               </p>
             </div>
             <div class="col-3"></div>
           </div>
-          <br>
+          <br />
           <div class="row">
             <div class="col-3">
-              <div >
-                <iframe src="https://www.youtube.com/embed/8AREwz6NRHc?rel=0" allowFullScreen></iframe>
+              <div>
+                <iframe
+                  src="https://www.youtube.com/embed/8AREwz6NRHc?rel=0"
+                  allowfullscreen
+                ></iframe>
                 <div class="right">
                   <p class="italics">Running time – 18:45 minutes</p>
                 </div>
@@ -220,52 +216,54 @@
         <hr class="fainthr" />
 
         <section id="extra3">
-            <div class="row">
-              <div class="col-3">
-                <img src="images/discussion1.png">
-              </div>
-              <div class="col-6">
-                <h4 class="title" id="covid">Live Discussions on COVID-19</h4>
+          <div class="row">
+            <div class="col-3">
+              <img src="images/discussion1.png" />
+            </div>
+            <div class="col-6">
+              <h4 class="title" id="covid">Live Discussions on COVID-19</h4>
 
-                  <div class="row"></div>
-                  <button type="button" class="btn">
-                     Fri, Sept 25 | 12:00am PDT
-                  </button>
-                  <button type="button" class="btn">
-                     Fri, Sept 25 | 9:00am PDT
-                  </button>
-                                
-                <div class="center">
-                  
+              <div class="row"></div>
+              <button type="button" class="btn">
+                Fri, Sept 25 | 12:00am PDT
+              </button>
+              <button type="button" class="btn">
+                Fri, Sept 25 | 9:00am PDT
+              </button>
+
+              <div class="center">
                 <p>
-                  COVID-19 has had a pervasive impact on the way that human beings interact amongst each other and with the built environment. Rural villages and densely populated cities have been equally affected. Join one of two live discussion forums assessing the future and consider how research in cognitive science and neuroscience may bring about answers. 
-                  The questions to be addressed during these forums will cover spatial confinement, reduced quality and quantity of social interaction, loss of privacy, feeling of reduced agency (power to control), reduced environmental richness and novelty, diminished sense of well-being, and increased stress.
+                  COVID-19 has had a pervasive impact on the way that human
+                  beings interact amongst each other and with the built
+                  environment. Rural villages and densely populated cities have
+                  been equally affected. Join one of two live discussion forums
+                  assessing the future and consider how research in cognitive
+                  science and neuroscience may bring about answers. The
+                  questions to be addressed during these forums will cover
+                  spatial confinement, reduced quality and quantity of social
+                  interaction, loss of privacy, feeling of reduced agency (power
+                  to control), reduced environmental richness and novelty,
+                  diminished sense of well-being, and increased stress.
                 </p>
-
-                </div>
               </div>
             </div>
+          </div>
         </section>
       </div>
 
       <br /><br />
       <footer>
         <div class="boxy">
-          
           <div class="row">
             <div class="col">
               <div class="row">
-                <div class="texty">
-                  KEYNOTES
-                </div>
+                <div class="texty">KEYNOTES</div>
               </div>
               <div class="row">
-                  <a href="KeynoteScottMakeig.html" class="texty">Scott Makeig</a>
+                <a href="KeynoteScottMakeig.html" class="texty">Scott Makeig</a>
               </div>
               <div class="row">
-                <a href="KeynoteAlanPenn.html" class="texty">
-                  Alan Penn
-                </a>
+                <a href="KeynoteAlanPenn.html" class="texty"> Alan Penn </a>
               </div>
               <div class="row">
                 <a href="KeynoteIsabellaBower.html" class="texty">
@@ -273,22 +271,16 @@
                 </a>
               </div>
             </div>
-            
+
             <div class="col">
               <div class="row">
-                 <div class="texty">
-                    TALKS
-                  </div>
+                <div class="texty">TALKS</div>
               </div>
               <div class="row">
-                <a href="talks1.html" class="texty">
-                  Design Thought Process
-                </a>
+                <a href="talks1.html" class="texty"> Design Thought Process </a>
               </div>
               <div class="row">
-                <a href="talks3.html" class="texty">
-                  Health & Healthcare
-                </a>
+                <a href="talks3.html" class="texty"> Health & Healthcare </a>
               </div>
               <div class="row">
                 <a href="talks2.html" class="texty">
@@ -301,9 +293,7 @@
                 </a>
               </div>
               <div class="row">
-                <a href="talks5.html" class="texty">
-                  Sensory Experience
-                </a>
+                <a href="talks5.html" class="texty"> Sensory Experience </a>
               </div>
               <div class="row">
                 <a href="talks6.html" class="texty">
@@ -311,9 +301,7 @@
                 </a>
               </div>
               <div class="row">
-                <a href="talks7.html" class="texty">
-                  Catalysts to Learning
-                </a>
+                <a href="talks7.html" class="texty"> Catalysts to Learning </a>
               </div>
               <div class="row">
                 <a href="talks8.html" class="texty">
@@ -324,9 +312,7 @@
 
             <div class="col">
               <div class="row">
-                 <div class="texty">
-                  POSTERS
-                </div>
+                <div class="texty">POSTERS</div>
               </div>
               <div class="row">
                 <a href="posters1.html" class="texty">
@@ -334,9 +320,7 @@
                 </a>
               </div>
               <div class="row">
-                <a href="posters3.html" class="texty">
-                  Health & Healthcare
-                </a>
+                <a href="posters3.html" class="texty"> Health & Healthcare </a>
               </div>
               <div class="row">
                 <a href="posters2.html" class="texty">
@@ -349,9 +333,7 @@
                 </a>
               </div>
               <div class="row">
-                <a href="posters5.html" class="texty">
-                  Sensory Experience
-                </a>
+                <a href="posters5.html" class="texty"> Sensory Experience </a>
               </div>
               <div class="row">
                 <a href="posters6.html" class="texty">
@@ -372,19 +354,13 @@
 
             <div class="col">
               <div class="row">
-                <a href="extra.html" class="texty">
-                  EXTRAS
-                </a>
+                <a href="extra.html" class="texty"> EXTRAS </a>
               </div>
               <div class="row">
-                <a href="extra.html#beyond" class="texty">
-                  Beyond Intuition
-                </a>
+                <a href="extra.html#beyond" class="texty"> Beyond Intuition </a>
               </div>
               <div class="row">
-                <a href="extra.html#beyond" class="texty">
-                  ANFA Voices
-                </a>
+                <a href="extra.html#beyond" class="texty"> ANFA Voices </a>
               </div>
               <div class="row">
                 <a href="extra.html#covid" class="texty">
@@ -395,9 +371,7 @@
 
             <div class="col">
               <div class="row">
-                <a href="sponsors.html" class="texty">
-                  SPONSORS
-                </a>
+                <a href="sponsors.html" class="texty"> SPONSORS </a>
               </div>
             </div>
 
@@ -409,16 +383,14 @@
               </div>
             </div>
           </div>
-        
         </div>
 
         <div class="boxy">
           <div class="row copyright">
             © ANFA 2020 | Sensing Spaces, Perceiving Place
           </div>
-        </div>  
-      </footer>     
-            
+        </div>
+      </footer>
     </body>
   </html>
 </DOCTYPE!>
