@@ -472,6 +472,38 @@ tr:nth-child(even) {
   vertical-align: bottom;
 }
 
+/*sponsors*/
+div.flex {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+img:not(.anfa-logo) {
+  /* height: 80px;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 200px;
+  display: inline-block;
+}
+
+.hks-img {
+  max-width: 285px;
+  position: relative;
+  top: 20%;
+}
+
+.pe-img {
+  max-width: 300px;
+  position: relative;
+  top: 30%;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
 /*responsive*/
 @media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   /*general*/
@@ -600,4 +632,6 @@ tr:nth-child(even) {
     width: 100%;
     height: auto;
   }
+
+  {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
 }
