@@ -2,8 +2,11 @@ body {
   font-family: "PT Sans";
 }
 
+.dark {
+  background-color: #393939 !important;
+}
 .dropdown-menu {
-  background-color: #343a40 !important;
+  background-color: #393939 !important;
   display: none;
   border: none !important;
 }
@@ -16,7 +19,7 @@ body {
 .navbar a {
   float: left;
   font-size: 16px;
-  color: #8f9295;
+  color: white;
   text-align: center;
   padding: 14px 16px !important;
   text-decoration: none;
@@ -86,4 +89,30 @@ a.aia:hover {
 nav a:hover {
   color: white !important;
   text-decoration: none !important;
+}
+
+.forum-img {
+  padding-top: 42px;
+  padding-bottom: 30px;
+  width: auto;
+  height: 110%;
+  transform: scaleX(-1);
+}
+
+#navbardrop {
+  color: white;
+}
+
+#whitetext {
+  color: white;
+}
+
+p.slanted {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: italic;
+  color: white;
+  padding-right: 20px;
+  padding-left: 15px; 
+  padding-top: 20px;
 }
