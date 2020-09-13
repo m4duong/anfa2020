@@ -128,3 +128,33 @@ iframe {
   width: 100%;
   height: auto;
 }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vid {
+  width: 23%;
+  height: auto;
+}
+
+.descript {
+  width: 50%;
+  height: auto;
+  margin-left: 3%;
+}
+@media only screen 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .vid {
+      width: 100%;
+      height: auto;
+    }
+
+    .descript {
+      width: 100%;
+      height: auto;
+      margin-left: 0%;
+    }
+}
