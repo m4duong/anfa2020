@@ -36,7 +36,7 @@ footer.nope {
 	padding-right: 5px;
 	padding-left: 5px;
 }
-footer.row > a:hover {
+.row > a:hover {
 	color: #cc99cc;
 }
 
