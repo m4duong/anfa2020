@@ -59,6 +59,10 @@ img.anfa-logo {
   text-align: left;
 }
 
+a.dropdown-item {
+  text-align: left;
+}
+
 .aia {
   background-color: #7b7b7b;
   float: right;
