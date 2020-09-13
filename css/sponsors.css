@@ -21,19 +21,19 @@ h3 {
 }
 
 p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 14px;
 }
-div.flex{
+div.flex {
   display: flex;
   justify-content: center;
   align-content: space-around;
 }
 
-img {
+img:not(.anfa-logo) {
   /* height: 80px;*/
-  padding-left: 25px;
-  padding-right: 25px; 
+  padding-left: 10px;
+  padding-right: 10px;
   max-height: 200px;
   display: inline-block;
 }
@@ -44,7 +44,7 @@ img {
   top: 20%;
 }
 
-.pe-img{
+.pe-img {
   max-width: 300px;
   position: relative;
   top: 30%;
@@ -70,22 +70,24 @@ section {
 
 table {
   table-layout: auto;
-  width: 100%
+  width: 100%;
 }
 
-table, th, td {
+table,
+th,
+td {
   padding: 8px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .small {
-  width: 60%
+  width: 60%;
 }
-.sponlink{
+.sponlink {
   color: #393939;
   text-decoration: none;
 }
-.sponlink:hover{
+.sponlink:hover {
   color: purple;
   text-decoration: underline;
 }
@@ -106,6 +108,10 @@ table, th, td {
   width: 423px;
 }
 
-img.johnimg{
+img.johnimg {
   margin-bottom: 15px;
+}
+nav a:hover {
+  text-decoration: none !important;
+  color: white !important;
 }

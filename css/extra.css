@@ -136,6 +136,7 @@ iframe {
   height: auto;
 }
 
-a {
-  text-decoration: none;
+nav a:hover {
+  text-decoration: none !important;
+  color: white !important;
 }
