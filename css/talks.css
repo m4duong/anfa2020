@@ -35,7 +35,7 @@ iframe {
 /* Create two equal columns that floats next to each other */
 
 /* Clear floats after the columns */
-.row {
+.row:not(footer .row) {
   margin-left: 40px;
   margin-bottom: 45px;
 }
