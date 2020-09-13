@@ -550,6 +550,24 @@ tr:nth-child(even) {
     }
 
     /*posters tables*/
+    table.talkpost td{
+      font-size: 2vw;
+      padding: 1.5px;
+    }
+
+    table.talkpost th{
+      font-size: 3vw;
+      padding: 2px;
+    }
+
+    table.talkpost tr td:nth-child(0) {
+      display: none;
+    }
+
+    table.talkpost col:nth-child(5) {
+      visibility: collapse;
+    }
+
     #title2 {
       width: 62%;
     }
