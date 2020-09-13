@@ -506,6 +506,14 @@ tr:nth-child(even) {
     }
 
     /*talks tables*/
+    .compview {
+      display: none;
+    }
+
+    .mobileview {
+      display: block;
+    }
+
     table.talktable td{
       font-size: 2vw;
       padding: 1.5px;
@@ -516,17 +524,13 @@ tr:nth-child(even) {
       padding: 2px;
     }
 
-    table.talktable tr td:nth-child(0) {
+    /*table.talktable tr td:nth-child(0) {
       display: none;
     }
 
     table.talktable col:nth-child(5) {
       visibility: collapse;
-    }
-
-    #number {
-      width: 0%
-    }
+    }*/
 
     #title {
       width: 60%;
@@ -538,10 +542,6 @@ tr:nth-child(even) {
 
     #item1 {
       width: 10%;
-    }
-
-    #item2 {
-      width: 0%;
     }
 
     th.name {
