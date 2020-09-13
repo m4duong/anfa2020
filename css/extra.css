@@ -17,118 +17,125 @@ h3 {
 }
 
 p {
-  font-family: 'Roboto';
-  font-size: 14px;}
+  font-family: "Roboto";
+  font-size: 14px;
+}
 
 .center {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 button {
-	font-family: 'PT Sans';
-	display: block;
+  font-family: "PT Sans";
+  display: block;
   margin-right: 10px;
-
 }
 
 section .btn {
-	background-color: #393939;
-	color: white;
+  background-color: #393939;
+  color: white;
   margin-bottom: 12px;
   padding: 3px 7px;
   border-radius: 0;
 }
 
-.day{
+section .btn:hover {
+  color: #cc99cc;
+}
+
+.day {
   margin-bottom: 0;
   font-size: min(10vw, 16px);
 }
 iframe {
-	border-color: transparent;
-	float: right;
-  }
-
- img {
- 	float: right;
- }
-
- .right {
- 	text-align: right;
- }
-
- img {
- 	max-height: 300px;
- 	max-width: 300px;
- }
-
- .subtitle {
- 	font-family: "Roboto";
- 	font-size: 18px;
- }
-
- .fainthr {
-  border-top: 3px solid purple;
-  opacity: 0.2;
-
+  border-color: transparent;
+  float: right;
 }
 
- /* responsivity */
+img {
+  float: right;
+}
+
+.right {
+  text-align: right;
+}
+
+img {
+  height: auto;
+
+  width: 400;
+}
+
+.subtitle {
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.fainthr {
+  border-top: 3px solid purple;
+  opacity: 0.2;
+}
+
+/* responsivity */
 * {
-	box-sizing: border-box;
-  }
-  
-  .row::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-  
-  [class*="col-"] {
-	float: left;
-	padding: 15px;
-  }
-  
-  .col-1 {
-	width: 8.33%;
-  }
-  .col-2 {
-	width: 16.66%;
-  }
-  .col-3 {
-	width: 25%;
-  }
-  .col-4 {
-	width: 33.33%;
-  }
-  .col-5 {
-	width: 41.66%;
-  }
-  .col-6 {
-	width: 50%;
-  }
-  .col-7 {
-	width: 58.33%;
-  }
-  .col-8 {
-	width: 66.66%;
-  }
-  .col-9 {
-	width: 75%;
-  }
-  .col-10 {
-	width: 83.33%;
-  }
-  .col-11 {
-	width: 91.66%;
-  }
-  .col-12 {
-	width: 100%;
-  }
-  
-  img,
-  iframe {
-	width: 100%;
-	height: auto;
-  }
-  
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+img,
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
