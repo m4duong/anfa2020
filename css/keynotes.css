@@ -114,5 +114,25 @@ div.forum a{
   padding: 3px 7px;
   border-radius: 0;
   align-self: left;
+}
 
+div.session{
+  padding: 0;
+}
+
+div.session h5{
+  font-weight: 550;
+}
+
+span{
+  font-size: min(10vw, 12px);
+}
+
+div.session a{
+  background-color: #393939;
+	color: white;
+  margin-bottom: 12px;
+  padding: 3px 7px;
+  border-radius: 0;
+  align-self: left;
 }
