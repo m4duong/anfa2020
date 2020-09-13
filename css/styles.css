@@ -518,7 +518,7 @@ tr:nth-child(even) {
     }
 
     table.talktable col:nth-child(1) {
-      visibility: collapse;
+      display: none;
     }
 
     table.talktable col:nth-child(5) {
