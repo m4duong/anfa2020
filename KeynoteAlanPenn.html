@@ -6,13 +6,16 @@
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       />
-      <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      />
+    
       <link
         href="https://fonts.googleapis.com/css?family=PT Sans"
         rel="stylesheet"
@@ -24,69 +27,15 @@
       <link rel="stylesheet" type="text/css" href="css/keynotes.css" />
       <link rel="stylesheet" type="text/css" href="css/navstyle.css" />
       <link rel="stylesheet" type="text/css" href="css/footer.css" />
+      <script>
+        $(function() {
+          $("#nav-placeholder").load("nav.html");
+        });
+      </script>
     </head>
 
     <body>
-      <nav class="navbar navbar-expand-sm flex">
-        <div class="flex1">
-          <a class="navbar-brand" href="index.html">
-            <img class="anfa-logo" src="http://www.anfarch.org/wp-content/uploads/2019/09/anfa-icon-Full-2-261x300.png">
-          </a>
-      
-          <!-- Links -->
-          <ul class="navbar-nav">
-            <li class="nav-item main-link">
-              <div class="dropdown">
-                <button class="dropbtn">KEYNOTES</button>
-                <div class="dropdown-content">
-                    <a href="KeynoteScottMakeig.html">Scott Makeig</a>
-                    <a href="KeynoteAlanPenn.html">Alan Penn</a>
-                    <a href="KeynoteIsabellaBower.html">Isabella Bower</a>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item main-link">
-              <div class="dropdown">
-                <button class="dropbtn">TALKS</button>
-                <div class="dropdown-content">
-                    <a href="talks1.html">Design Thought Process</a>
-                    <a href="talks2.html">Performance Variables: Biophilia, Color, Light</a>
-                    <a href="talks3.html">Health & Healthcare</a>
-                    <a href="talks4.html">Occupant Behavior in Buildings & Beyond</a>
-                    <a href="talks5.html">Sensory Experience</a>
-                    <a href="talks6.html">Spatial Interactions & Navigation</a>
-                    <a href="talks7.html">Catalysts to Learning</a>
-                    <a href="talks8.html">Measurement Tools: Hardware & Software</a>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item main-link">
-              <div class="dropdown">
-                <button class="dropbtn">POSTERS</button>
-                <div class="dropdown-content">
-                    <a href="posters1.html">Design Thought Process</a>
-                    <a href="posters2.html">Performance Variables: Biophilia, Color, Light</a>
-                    <a href="posters3.html">Health & Healthcare</a>
-                    <a href="posters4.html">Occupant Behavior in Buildings & Beyond</a>
-                    <a href="posters5.html">Sensory Experience</a>
-                    <a href="posters6.html">Spatial Interactions & Navigation</a>
-                    <a href="posters7.html">Catalysts to Learning</a>
-                    <a href="posters8.html">Measurement Tools: Hardware & Software</a>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item main-link">
-              <a href="extra.html">EXTRAS</a>
-            </li>
-            <li class="nav-item main-link">
-              <a href="sponsors.html">SPONSORS</a>
-            </li>
-        </div>
-            <li class="nav-item flex2">
-              <a class="aia" href="pdf/aiaform.pdf" download>AIA EDUCATION FORM</a>
-            </li>
-          </ul>
-      </nav>
+      <div id="nav-placeholder"></div>
 
 
       <br /><br />
