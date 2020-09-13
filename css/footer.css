@@ -21,7 +21,7 @@ footer {
 	font-size: 11px;
 }*/
 
-.nope {
+footer.nope {
 	margin: 0px !important;
 }
 
@@ -36,7 +36,7 @@ footer {
 	padding-right: 5px;
 	padding-left: 5px;
 }
-.row > a:hover {
+footer.row > a:hover {
 	color: #cc99cc;
 }
 
@@ -45,7 +45,7 @@ footer {
 	padding-right: 30px;
 }
 
-.right {
+footer.right {
 	float: right;
 }
 
@@ -55,7 +55,7 @@ footer {
 	float: right;
 }
 
-.spacepls {
+footer.spacepls {
 	margin-left: 60px;
 	margin-right: 30px;
 }
