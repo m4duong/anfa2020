@@ -8,13 +8,10 @@ footer {
   font-family: "Roboto";
 }
 
-
-
 /*.flex-container > div {
 	margin: 30px;
 	padding: 20px;
-*/	
-}
+*/
 
 /*body {
 	font-family: "Roboto";
@@ -22,40 +19,40 @@ footer {
 }*/
 
 footer.nope {
-	margin: 0px !important;
+  margin: 0px !important;
 }
 
 .texty {
-	color: white;
-	margin: 0px !important;
-	padding-left: 30px;
+  color: white;
+  margin: 0px !important;
+  padding-left: 30px;
 }
 
 #wide {
-	color: white;
-	padding-right: 5px;
-	padding-left: 5px;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 .row > a:hover {
-	color: #cc99cc;
+  color: #cc99cc;
 }
 
 .boxy {
-	padding-left: 30px;
-	padding-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 footer.right {
-	float: right;
+  float: right;
 }
 
 .copyright {
-	font-size: 10px;
-	color: white;
-	float: right;
+  font-size: 10px;
+  color: white;
+  float: right;
 }
 
 footer.spacepls {
-	margin-left: 60px;
-	margin-right: 30px;
+  margin-left: 60px;
+  margin-right: 30px;
 }
