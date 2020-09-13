@@ -194,18 +194,6 @@ table {
 }
 
 /*talks content*/
-.accordion {
-  background-color: #393939;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
 .panel {
   padding: 0 18px;
   background-color: #d9d5d5;
@@ -321,11 +309,11 @@ tr:nth-child(even) {
 }
 
 #title {
-  width: 56%;
+  width: 57%;
 }
 
 #author {
-  width: 27%;
+  width: 26%;
 }
 
 #item1 {
@@ -337,19 +325,19 @@ tr:nth-child(even) {
 }
 
 /*posters tables*/
-#title {
-  width: 66%;
+#title2 {
+  width: 62%;
 }
 
-#author {
-  width: 27%;
+#author2 {
+  width: 26%;
 }
 
-#item1 {
+#item3 {
   width: 6%;
 }
 
-#item2 {
+#item4 {
   width: 6%;
 }
 
