@@ -22,6 +22,7 @@ h1 h2 h3 h4 h5 {
   max-width: 90%;
   text-align: justify;
   text-justify: inter-word;
+  margin-bottom: 0;
 }
 
 
@@ -31,6 +32,10 @@ h1 h2 h3 h4 h5 {
 }
 
 .boxed {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.mobilespace {
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -55,11 +60,30 @@ hr.solid {
 }
 
 /*welcome*/
+.flex-container-welc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two {
+  width: 22%;
+  height: auto;
+  margin-right: 1%;
+}
+.three {
+  width: 35%;
+  height: auto;
+  margin-right: 2%;
+}
+.one {
+  width: 40%;
+  height:auto;
+}
+
 iframe.svideo {
   width: 100%;
   height: auto;
   border-color: transparent;
-  align-self: center;
 }
 
 .glance {
@@ -71,6 +95,8 @@ iframe.svideo {
 
 .padded {
   padding-left: 70px;
+  width: 30%;
+  height: auto;
 }
 
 /*live*/
@@ -296,6 +322,7 @@ tr:nth-child(even) {
   width: 300px;
   margin-left: 40px;
   margin-right: 40px;
+  margin-bottom: 5px;
 }
 
 .row-desc {
@@ -362,7 +389,7 @@ tr:nth-child(even) {
 
 /*glance style*/
 .tg-wrap a {
-  color: black;
+  color: #393939;
 }
 .tg {
   border-collapse:collapse
@@ -444,15 +471,115 @@ tr:nth-child(even) {
   vertical-align:bottom
 }
 
-@media screen and (max-width: 767px) {
-  .tg {
-      width: auto !important;
+
+/*responsive*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /*general*/
+    .mobilespace {
+      margin-left: 1%;
+      margin-right: 1%;
     }
-  .tg col {
-    width: auto !important;
-  }
-  .tg-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
+
+    /*welcome*/
+    iframe.svideo {
+      width: 100%;
+      height: auto;
+      align-self: center;
+    }
+
+    .two {
+      width: 100%;
+      height: auto;
+      order: 2;
+    }
+    .three {
+      width: 100%;
+      height: auto;
+      order: 3;
+    }
+    .one {
+      width: 100%;
+      order: 1;
+      padding-bottom: 3%;
+    }
+
+    /*talks tables*/
+    table.talktable td{
+      font-size: 2vw;
+      padding: 1px;
+    }
+
+    table.talktable th{
+      font-size: 3vw;
+      padding: 1.5px;
+    }
+
+    table.talktable col:nth-child(1) {
+      visibility: collapse;
+    }
+
+    table.talktable col:nth-child(5) {
+      visibility: collapse;
+    }
+
+    #number {
+      width: 0%
+    }
+
+    #title {
+      width: 60%;
+    }
+
+    #author {
+      width: 30%;
+    }
+
+    #item1 {
+      width: 10%;
+    }
+
+    #item2 {
+      width: 0%;
+    }
+
+    th.name {
+      colspan: 3;
+    }
+
+    /*posters tables*/
+    #title2 {
+      width: 62%;
+    }
+
+    #author2 {
+      width: 26%;
+    }
+
+    #item3 {
+      width: 6%;
+    }
+
+    #item4 {
+      width: 6%;
+    }
+
+    /*extras tables*/
+    #etitle {
+      width: 20%;
+    }
+
+    #enames {
+      width: 15%
+    }
+
+    #desc {
+      width: 50%;
+    }
+
+    #elink {
+      width: 15%;
+    }
 }
