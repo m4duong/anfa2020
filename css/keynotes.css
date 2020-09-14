@@ -88,7 +88,7 @@ div.col.speaker p {
 
 div.col.speaker {
   width: 100%;
-  padding-left: 40px;
+  margin-left: 40px;
 }
 .title h5 {
   font-weight: bold;
