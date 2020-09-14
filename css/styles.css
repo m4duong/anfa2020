@@ -479,19 +479,19 @@ div.flex {
   align-content: space-around;
 }
 
-img:not(.anfa-logo) {
+/*img:not(.anfa-logo) {
   /* height: 80px;*/
-  padding-left: 10px;
+  /*padding-left: 10px;
   padding-right: 10px;
   max-height: 200px;
   display: inline-block;
-}
+}*/
 
-.hks-img {
+/*.hks-img {
   max-width: 285px;
   position: relative;
   top: 20%;
-}
+}*/
 
 .pe-img {
   max-width: 300px;
@@ -507,6 +507,52 @@ img:not(.anfa-logo) {
 
 
 /*sponsors*/
+  .topped {
+    vertical-align: top;
+    padding-top: 5px;
+  }
+  p.bio {
+  font-size: 12px;
+  }
+  .otherinside {
+    width: 100%;
+    height: auto;
+  }
+  .otherpic1 {
+    padding-bottom: 0%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .otherpic2 {
+    padding-bottom: 0%;
+  }
+  .otherpic3 {
+    padding-bottom: 55%;
+  }
+  /*john*/
+  img.johnimg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  p.otherjonhtext {
+    font-size: 18px;
+  }
+
+  /*kind*/
+  .kind {
+    width: 60%;
+  }
+
+  .kind {
+    display: block;
+  }
+
+  .kindmobile {
+    display: none;
+  }
   .anyview {
     display: flex;
     align-content: space-around;
@@ -515,23 +561,29 @@ img:not(.anfa-logo) {
   }
   /*financial*/
   .hks-img {
-  width: 100%;
+  width: 50%;
+  height: auto;
   position: relative;
-  padding-top: 35%;
+  padding-top: 5%;
+  margin-left: 10%;
   }
 
   .pe-img {
-    width: 100%;
+    width: 50%;
+  height: auto;
     position: relative;
-    padding-top: 35%;
   }
 
   .pwa-img {
-    width: 100%;
-    height: auto;
-    top: 30%;
+    width: 50%;
+  height: auto;
+    height: auto; 
   }
 
+  .middle {
+    margin-left: 6%;
+    margin-top: 5%;
+  }
   .other {
     width: 15%;
     height: 40%;
@@ -548,12 +600,14 @@ img:not(.anfa-logo) {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
   /*john*/
   img.johnimg {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    padding-top: 5%;
   }
   .otherjohn {
     width: 50%;
@@ -593,6 +647,7 @@ img:not(.anfa-logo) {
   .sponlink {
     color: #393939;
     text-decoration: none;
+    font-size: 14px;
   }
   .sponlink:hover {
     color: purple;
@@ -603,8 +658,17 @@ img:not(.anfa-logo) {
     background-color: white;
   }
 
+  .namespons {
+    text-align: center;
+  }
+
+  p.otherjonhtext {
+  font-size: 1.25rem;
+}
+
 /*responsive*/
-@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-device-width: 480px) 
+and (-webkit-min-device-pixel-ratio: 2) {
   /*general*/
   .boxed {
     margin-left: 30px;
@@ -644,6 +708,14 @@ img:not(.anfa-logo) {
     width: 100%;
     order: 1;
     padding-bottom: 3%;
+  }
+
+  .name {
+    font-size: 3vw;
+  }
+  .namespons {
+    font-size: 3vw;
+    text-align: center;
   }
 
   /*talks tables*/
@@ -736,18 +808,15 @@ img:not(.anfa-logo) {
     height: auto;
   }
 
-  {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
+  .tg {width: auto !important;}
+  .tg col {width: auto !important;}
+  .tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}
 
   /*sponsors*/
-  .flex-container {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
     .hks-img {
       width: 100%;
       position: relative;
-      padding-top: 20%;
+      padding-top: 5%;
     }
 
     .pe-img {
@@ -779,40 +848,16 @@ img:not(.anfa-logo) {
       width: 100%;
       height: auto;
       margin-bottom: 15px;
+      padding-left: 0px;
+      padding-right: 0px;
     }
     .otherjohn {
       width: 100%;
     }
-    p {
-      font-size: 13px;
+    p.otherjonhtext {
+      font-size: 14px;
     }
-
-    /*kind*/
-    td a {
-      font-size: 11px;
-    }
-
-    .kindmobile {
-      width: 100%;
-    }
-
-    .kind {
-    display: none;
-    }
-
-    .kindmobile {
-      display: block;
-    }
-
-    .kindmobile table tr{
-    background-color: white;
-    }
-
-    .kindmobile table,
-    .kindmobile th,
-    .kindmobile td {
-      padding: 8px;
-      font-family: "Roboto";
-      border: none;
-    }
+    .sponlink {
+    font-size: 9px;
+  }
 }

@@ -233,4 +233,8 @@ nav a:hover {
     .otherpic3 {
       padding-bottom: 3%;
     }
+
+    p.otherjonhtext {
+      font-size: 14px;
+    }
 }
