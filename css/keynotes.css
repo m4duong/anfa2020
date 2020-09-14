@@ -56,8 +56,7 @@ p {
   color: #393939;
 }
 
-img.holder,
-iframe {
+img.holder {
   width: 490px;
   max-width: 500px;
   height: 300px;
@@ -143,4 +142,33 @@ div.session a {
 div.session a:hover {
   color: #393939;
   background-color: #ccc;
+}
+
+@media only screen 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .vid {
+      width: 100%;
+      height: auto;
+    }
+
+    .descript {
+      width: 100%;
+      height: auto;
+      margin-left: 0%;
+    }
+
+    .gone {
+      display: none;
+    }
+
+    img.holder, iframe {
+      width: 100%;
+      height: auto;
+      border-color: transparent;
+    }
+
+    div.col.keynotevideo {
+      margin-right: 0px;
+    }
 }
