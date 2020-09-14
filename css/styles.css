@@ -528,7 +528,7 @@ div.flex {
     padding-bottom: 0%;
   }
   .otherpic3 {
-    padding-bottom: 55%;
+    padding-bottom: 0%;
   }
   /*john*/
   img.johnimg {
@@ -561,28 +561,27 @@ div.flex {
   }
   /*financial*/
   .hks-img {
-  width: 50%;
+  width: 30%;
   height: auto;
   position: relative;
-  padding-top: 5%;
+  padding-top: 3px;
   margin-left: 10%;
   }
 
   .pe-img {
-    width: 50%;
+    width: 38%;
   height: auto;
     position: relative;
   }
 
   .pwa-img {
-    width: 50%;
-  height: auto;
+    width: 24%;]
     height: auto; 
   }
 
   .middle {
     margin-left: 6%;
-    margin-top: 5%;
+    margin-top: 3px;
   }
   .other {
     width: 15%;
@@ -607,7 +606,7 @@ div.flex {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
-    padding-top: 5%;
+    padding-top: 3px;
   }
   .otherjohn {
     width: 50%;
@@ -647,7 +646,7 @@ div.flex {
   .sponlink {
     color: #393939;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
   }
   .sponlink:hover {
     color: purple;
@@ -848,21 +847,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   /*sponsors*/
     .hks-img {
-      width: 100%;
+      width: 60%;
       position: relative;
       padding-top: 5%;
     }
 
     .pe-img {
-      width: 100%;
+      width: 84%;
       position: relative;
-      padding-top: 16%;
+      padding-top: 0%;
     }
 
     .pwa-img {
-      width: 100%;
+      width: 75%;
       height: auto;
-      padding-top: 16%;
+      padding-top: 0%;
     }
 
     .other {
@@ -881,7 +880,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     img.johnimg {
       width: 100%;
       height: auto;
-      margin-bottom: 15px;
+      margin-bottom: 5px;
       padding-left: 0px;
       padding-right: 0px;
     }
@@ -889,9 +888,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
       width: 100%;
     }
     p.otherjonhtext {
-      font-size: 14px;
+      font-size: 10px;
     }
     .sponlink {
-    font-size: 9px;
+    font-size: 2vw;
   }
 }
