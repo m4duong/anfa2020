@@ -119,6 +119,12 @@ p.bio {
 .otherpic3 {
   padding-bottom: 55%;
 }
+
+.vertical {
+  border-left: 3px solid purple;
+  height: 370px;
+  opacity: 0.2;
+}
 /*john*/
 img.johnimg {
   width: 100%;
@@ -236,5 +242,9 @@ nav a:hover {
 
     p.otherjonhtext {
       font-size: 14px;
+    }
+
+    .vertical {
+      display: none;
     }
 }
