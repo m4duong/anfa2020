@@ -103,6 +103,22 @@ td {
   text-decoration: underline;
 }
 
+p.bio {
+  font-size: 12px;
+}
+.otherinside {
+  width: 100%;
+  height: auto;
+}
+.otherpic {
+  padding-bottom: 45%;
+}
+.otherpic2 {
+  padding-bottom: 0%;
+}
+.otherpic3 {
+  padding-bottom: 55%;
+}
 /*john*/
 img.johnimg {
   width: 100%;
@@ -112,7 +128,7 @@ img.johnimg {
 .otherjohn {
   width: 60%;
 }
-p {
+p.otherjonhtext {
   font-size: 1.25rem;
 }
 
@@ -144,25 +160,25 @@ nav a:hover {
     }
 
     .hks-img {
-      width: 100%;
+      width: 50%;
       position: relative;
       padding-top: 20%;
     }
 
     .pe-img {
-      width: 100%;
+      width: 60%;
       position: relative;
       padding-top: 16%;
     }
 
     .pwa-img {
-      width: 100%;
+      width: 50%;
       height: auto;
       padding-top: 16%;
     }
 
     .other {
-      width: 75%;
+      width: 100%;
       height: 40%;
       margin: 0%;
     }
@@ -201,5 +217,20 @@ nav a:hover {
 
     .kindmobile {
       display: block;
+    }
+
+    /*financial*/
+    .otherinside {
+      width: 100%;
+      height: auto;
+    }
+    .otherpic {
+      padding-bottom: 3%;
+    }
+    .otherpic2 {
+      padding-bottom: 3%;
+    }
+    .otherpic3 {
+      padding-bottom: 3%;
     }
 }
