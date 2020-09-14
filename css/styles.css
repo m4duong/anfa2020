@@ -430,7 +430,7 @@ tr:nth-child(even) {
 
 .tg .tg-dtfv {
   background-color: #393939;
-  border-color: inherit;
+  border-color: 393939;
   color: #ffffff;
   font-size: 24px;
   font-weight: bold;
@@ -452,7 +452,7 @@ tr:nth-child(even) {
 
 .tg .tg-t348 {
   background-color: #393939;
-  border-color: inherit;
+  border-color: transparent;
   color: #ffffff;
   font-weight: bold;
   text-align: left;
@@ -682,7 +682,24 @@ table.hullo td:nth-child(3) {
     font-size: 22px;
     text-align: left;
   }
-
+.button {
+        background-color: none
+        border: none;
+        color: white;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        text-align: center;
+        display: block;
+        font-size: 14px;
+        margin: 6px 2px;
+        cursor: pointer;
+        width: 70%;
+        text-decoration: underline;
+        text-decoration-color: #cc99cc;
+      }
+a.button {
+  color: white;
+}
 /*responsive*/
 @media only screen and (max-device-width: 480px) 
 and (-webkit-min-device-pixel-ratio: 2) {
