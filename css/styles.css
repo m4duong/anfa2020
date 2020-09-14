@@ -425,7 +425,7 @@ tr:nth-child(even) {
   color: #ffffff;
   font-weight: bold;
   text-align: left;
-  vertical-align: bottom;
+  vertical-align: center;
 }
 
 .tg .tg-dtfv {
@@ -435,19 +435,19 @@ tr:nth-child(even) {
   font-size: 24px;
   font-weight: bold;
   text-align: left;
-  vertical-align: top;
+  vertical-align: center;
 }
 
 .tg .tg-fymr {
   border-color: inherit;
   font-weight: bold;
   text-align: left;
-  vertical-align: top;
+  vertical-align: center;
 }
 .tg .tg-0pky {
   border-color: inherit;
   text-align: left;
-  vertical-align: top;
+  vertical-align: center;
 }
 
 .tg .tg-t348 {
@@ -456,20 +456,20 @@ tr:nth-child(even) {
   color: #ffffff;
   font-weight: bold;
   text-align: left;
-  vertical-align: top;
+  vertical-align: center;
 }
 
 .tg .tg-0thz {
   border-color: inherit;
   font-weight: bold;
   text-align: left;
-  vertical-align: bottom;
+  vertical-align: center;
 }
 
 .tg .tg-za14 {
   border-color: inherit;
   text-align: left;
-  vertical-align: bottom;
+  vertical-align: center;
 }
 
 /*sponsors*/
