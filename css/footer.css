@@ -90,20 +90,30 @@ footer.spacepls {
 
     .col-small {
       width: 125px;
+      padding-bottom: 15px;
     }
 
     .col-biggest {
       width: 325px;
+      padding-bottom: 15px;
     }
     .col-big {
       width: 323px;
+      padding-bottom: 15px;
     }
     .col-med {
-      width: 30%;
+      width: 230px;
+      padding-bottom: 15px;
     }
 
     .fitfoot {
       display: flex;
       flex-wrap: wrap;
+    }
+
+    .fitfoot {
+      display: flex;
+      flex-wrap: wrap;
+       justify-content: center;
     }
 }
