@@ -666,6 +666,23 @@ div.flex {
   font-size: 1.25rem;
 }
 
+table.hullo td:nth-child(1) {
+  background-color: white;
+}
+
+table.hullo td:nth-child(2) {
+  background-color: white;
+}
+
+table.hullo td:nth-child(3) {
+  background-color: white;
+}
+
+.namespons {
+    font-size: 22px;
+    text-align: left;
+  }
+
 /*responsive*/
 @media only screen and (max-device-width: 480px) 
 and (-webkit-min-device-pixel-ratio: 2) {
