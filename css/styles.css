@@ -696,6 +696,12 @@ table.hullo td:nth-child(3) {
         text-decoration: underline;
         text-decoration-color: #cc99cc;
       }
+.padd {
+  padding-bottom: 4px;
+}
+
+
+
 a.button {
   color: white;
 }
