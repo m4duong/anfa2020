@@ -561,22 +561,23 @@ div.flex {
   }
   /*financial*/
   .hks-img {
-  width: 30%;
-  height: auto;
-  position: relative;
-  padding-top: 3px;
-  margin-left: 10%;
+  width: 40%;
+height: auto;
+position: relative;
+padding-top: 3px;
   }
 
   .pe-img {
-    width: 38%;
-  height: auto;
-    position: relative;
+    width: 56%;
+height: auto;
+position: relative;
+margin-top: 4%;
   }
 
   .pwa-img {
-    width: 24%;]
-    height: auto; 
+    width: 48%;
+    height: auto;
+    margin-top: 4%;
   }
 
   .middle {
@@ -861,13 +862,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .pe-img {
       width: 84%;
       position: relative;
-      padding-top: 0%;
+      padding-top: 1%;
     }
 
     .pwa-img {
       width: 75%;
       height: auto;
-      padding-top: 0%;
+      padding-top: 1%;
     }
 
     .other {

@@ -17,9 +17,13 @@ h2 {
   text-align: center;
 }*/
 
+.p-2 {
+  width:100%;
+}
 .speaker {
   /* background-color: #D9D5D5; */
-  padding: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
   text-align: left;
   /* margin-top: 30px; */
 }
@@ -57,9 +61,9 @@ p {
 }
 
 img.holder, iframe {
-  width: 490px;
+  width: 100%;
   max-width: 500px;
-  height: 300px;
+  height: auto;
   border-color: transparent;
 }
 
@@ -69,15 +73,16 @@ div.col.speaker-img {
   height: 200px;
   max-width: 200px;
   margin: 4px;
+  margin-bottom: 69px;
 }
 
-div.col.speaker p,
+
 div.col.speaker h2 {
   margin-right: 30%;
 }
 
 div.col.speaker {
-  width: 555px;
+  width: 133%;
 }
 .title h5 {
   font-weight: bold;
