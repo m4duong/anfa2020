@@ -22,7 +22,7 @@ h2 {
 }
 .speaker {
   /* background-color: #D9D5D5; */
-  padding-left: 40px !important;
+  /*padding-left: 40px !important;*/
   padding-top: 40px;
   text-align: left;
   /* margin-top: 30px; */
@@ -80,16 +80,10 @@ div.col.speaker-img {
 
 div.col.speaker h2 {
   margin-right: 30%;
-  margin-left: 40px;
-}
-div.col.speaker p {
-  margin-left: 40px;
-}
 }
 
 div.col.speaker {
   width: 100%;
-  margin-left: 40px;
 }
 .title h5 {
   font-weight: bold;
