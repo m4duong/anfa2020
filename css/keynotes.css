@@ -79,6 +79,11 @@ div.col.speaker-img {
 
 div.col.speaker h2 {
   margin-right: 30%;
+  margin-left: 40px;
+}
+div.col.speaker p {
+  margin-left: 40px;
+}
 }
 
 div.col.speaker {
