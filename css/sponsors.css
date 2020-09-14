@@ -20,40 +20,51 @@ h3 {
   font-family: "PT Sans";
 }
 
-p {
-  font-family: "Roboto";
-  font-size: 14px;
-}
-div.flex {
+.flex-container {
   display: flex;
   justify-content: center;
   align-content: space-around;
+  padding-top: 1%;
 }
 
-img:not(.anfa-logo) {
+/*img:not(.anfa-logo) {
   /* height: 80px;*/
-  padding-left: 10px;
+  /*padding-left: 10px;
   padding-right: 10px;
   max-height: 200px;
   display: inline-block;
-}
+}*/
 
 .hks-img {
-  max-width: 285px;
+  width: 100%;
   position: relative;
-  top: 20%;
+  padding-top: 35%;
 }
 
 .pe-img {
-  max-width: 300px;
+  width: 100%;
   position: relative;
+  padding-top: 35%;
+}
+
+.pwa-img {
+  width: 100%;
+  height: auto;
   top: 30%;
+}
+
+.other {
+  width: 15%;
+  height: 40%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 5%;
 }
 
 .center {
   display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .talk {
@@ -93,25 +104,102 @@ td {
 }
 
 /*john*/
-.container {
-  position: relative;
-  text-align: center;
-}
-
-.text-block {
-  position: absolute;
-  left: 40px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 423px;
-}
-
 img.johnimg {
+  width: 100%;
+  height: auto;
   margin-bottom: 15px;
 }
+.otherjohn {
+  width: 60%;
+}
+p {
+  font-size: 1.25rem;
+}
+
+/*kind*/
+.kind {
+  width: 60%;
+}
+
+.kind {
+  display: block;
+}
+
+.kindmobile {
+  display: none;
+}
+
+/*misc*/
 nav a:hover {
   text-decoration: none !important;
   color: white !important;
+}
+
+@media only screen 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .hks-img {
+      width: 100%;
+      position: relative;
+      padding-top: 20%;
+    }
+
+    .pe-img {
+      width: 100%;
+      position: relative;
+      padding-top: 16%;
+    }
+
+    .pwa-img {
+      width: 100%;
+      height: auto;
+      padding-top: 16%;
+    }
+
+    .other {
+      width: 75%;
+      height: 40%;
+      margin: 0%;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /*john*/
+    img.johnimg {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    .otherjohn {
+      width: 100%;
+    }
+    p {
+      font-size: 13px;
+    }
+
+    /*kind*/
+    td a {
+      font-size: 11px;
+    }
+
+    .kindmobile {
+      width: 100%;
+    }
+
+    .kind {
+    display: none;
+    }
+
+    .kindmobile {
+      display: block;
+    }
 }
