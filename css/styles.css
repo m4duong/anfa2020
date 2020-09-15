@@ -545,6 +545,7 @@ p.otherjonhtext {
   width: 60%;
 }
 
+<<<<<<< HEAD
 .kind {
   display: block;
 }
@@ -577,6 +578,37 @@ p.otherjonhtext {
   width: 24%;
   height: auto;
 }
+=======
+  .kindmobile {
+    display: none;
+  }
+  .anyview {
+    display: flex;
+    align-content: space-around;
+    padding-top: 1%;
+    margin-left: 2%;
+  }
+  /*financial*/
+  .hks-img {
+  width: 40%;
+height: auto;
+position: relative;
+padding-top: 3px;
+  }
+
+  .pe-img {
+    width: 56%;
+height: auto;
+position: relative;
+margin-top: 4%;
+  }
+
+  .pwa-img {
+    width: 48%;
+    height: auto;
+    margin-top: 4%;
+  }
+>>>>>>> a45af22b411944a4cefd34afe3ac8694e857a7a7
 
 .middle {
   margin-left: 6%;
@@ -861,6 +893,7 @@ a.button {
     padding-top: 5%;
   }
 
+<<<<<<< HEAD
   .pe-img {
     width: 84%;
     position: relative;
@@ -872,6 +905,19 @@ a.button {
     height: auto;
     padding-top: 0%;
   }
+=======
+    .pe-img {
+      width: 84%;
+      position: relative;
+      padding-top: 1%;
+    }
+
+    .pwa-img {
+      width: 75%;
+      height: auto;
+      padding-top: 1%;
+    }
+>>>>>>> a45af22b411944a4cefd34afe3ac8694e857a7a7
 
   .other {
     width: 75%;
