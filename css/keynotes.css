@@ -162,6 +162,10 @@ div.col.keynotevideo {
   text-align: center;
 }
 
+table {
+  margin-bottom: 81%;
+}
+
 table, th, td {
   border: 1px solid black;
 }
