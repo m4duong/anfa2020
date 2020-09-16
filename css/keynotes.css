@@ -63,7 +63,7 @@ p {
 img.holder, iframe {
   width: 100%;
   max-width: 500px;
-  height: auto;
+  height: 40%;
   border-color: transparent;
 }
 
@@ -156,6 +156,24 @@ div.session a:hover {
 div.col.keynotevideo {
   width: 490px;
   max-width: 500px;
+}
+
+.center {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+th {
+  height: 15px;
+  font-size: 13px;
+}
+
+th, td {
+  padding: 5px;
 }
 
 @media only screen 
