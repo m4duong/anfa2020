@@ -89,6 +89,11 @@ iframe.svideo {
   height: auto;
   border-color: transparent;
 }
+.closer-img {
+  width: 100%;
+  height: auto;
+  border-color: transparent;
+}
 
 .glance {
   width: 100%;
