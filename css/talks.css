@@ -135,6 +135,10 @@ iframe {
   margin-bottom: 3%;
 }
 
+.flex-container.begone {
+  display: none;
+}
+
 .vid {
   width: 23%;
   height: auto;
